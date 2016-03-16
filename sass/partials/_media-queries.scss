@@ -248,6 +248,7 @@
 		
 	}
 	
+	//* Home page
 	.hero-video {
 		height: 60vh;
 	}
@@ -260,6 +261,16 @@
 	
 	.homepage-newsletter .wrap {
 		margin: 0;
+	}
+	
+	//* Catalog page
+	.catalog {
+		h2 {
+			background: none;
+			border-bottom: 2px solid $color-purple;
+			color: $color-purple;
+			height: auto;
+		}		
 	}
 	
 	/* Responsive Navigation
