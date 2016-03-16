@@ -39,6 +39,8 @@
 		- Featured Content
 	- Pages
 		- Home Page
+		- Catalog
+		- Dances
 	- Plugins
 		- Genesis eNews Extended
 		- Genesis Latest Tweets
@@ -1230,6 +1232,23 @@ Pages
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   top: 18rem;
   width: 70%; }
+
+/* --- Catalog --- */
+.catalog h2 {
+  background: #D40194;
+  color: #fff;
+  font-size: 25px;
+  height: 80px;
+  padding: 10px 5px; }
+.catalog .button {
+  background: #D40194;
+  border: 1px solid #D40194;
+  border-radius: 50px;
+  text-align: center;
+  width: 100%; }
+  .catalog .button:hover {
+    background: #fff;
+    color: #D40194; }
 
 /* --- Dances --- */
 .column ul {

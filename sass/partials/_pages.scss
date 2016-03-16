@@ -397,6 +397,30 @@
 	width: 70%;
 }
 
+/* --- Catalog --- */
+.catalog {
+	h2 {
+		background: $color-purple;
+		color: #fff;
+		font-size: 25px;
+		height: 80px;
+		padding: 10px 5px;
+	}
+	
+	.button {
+		background: $color-purple;
+		border: 1px solid $color-purple;
+		border-radius: 50px;
+		text-align: center;
+		width: 100%;
+		
+		&:hover {
+			background: #fff;
+			color: $color-purple;
+		}
+	}
+}
+
 /* --- Dances --- */
 .column ul {
 	margin-left: 18px !important;
