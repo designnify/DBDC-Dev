@@ -1,0 +1,407 @@
+/* Home Page
+--------------------------------------------- */
+
+/* --- Home Hero Video --- */
+.home .site-inner {
+	max-width: none;
+	padding-top: 0;
+}
+
+.hero-video {
+	background: transparent;
+	display: table;
+	height: 80vh;
+	text-align: center;
+	width: 100%;
+	text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+	
+	.widget_black_studio_tinymce {
+		display: table-cell;
+		vertical-align: bottom;
+	}
+	
+	.button {
+		background: transparent;
+		border: 2px solid #fff;
+		font-family: $font-sans-2;
+		font-size: 30px;
+		padding: 10px 40px;
+	}
+	
+	.button:hover {
+		background: $color-purple;
+		border: none;
+		text-shadow: none;
+	}
+	
+	p {
+		margin: 0 0 15px;
+	}
+	
+	.arrow-down {
+		
+		a {
+			background: rgb(0, 0, 0);
+			background: rgba(0, 0, 0, 0.6);
+			border-radius: 30px;
+			display: inline-block;
+			line-height: 1;
+			padding: 13px 10px 6px;
+			text-shadow: none;
+			
+			&:before {
+				-webkit-font-smoothing: antialiased;
+				color: #fff;
+				content: "\f347";
+				font: normal 25px/1 'dashicons';
+				height: 40px;
+				width: 40px;
+			}
+		}
+	}
+	
+	.dashicons {
+		background: rgb(255, 255, 255);
+		background: rgba(255, 255, 255, 0.75);
+		border-radius: 50%;
+		height: auto;
+		margin: 0 0 10px;
+		padding: 15px;
+		text-shadow: none;
+		width: auto;
+	}
+	
+	.dashicons:hover {
+		background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, 0.75);
+		color: #fff;
+	}
+}
+
+/* --- Home Widgets Common Attributes --- */
+
+.homepage-news,
+.homepage-map,
+.homepage-newsletter,
+.homepage-social-icons {
+	
+	.widget-title {
+		font-family: $font-sans-3;
+		font-size: 40px;
+	}
+}
+
+.homepage-news,
+.homepage-map {
+	
+	.widget-title {
+		color: $color-purple;
+	}
+}
+
+.homepage-newsletter,
+.homepage-social-icons {
+	
+	.widget-title {
+		color: #fff;
+	}
+}
+
+.homepage-map,
+.homepage-newsletter,
+.homepage-social-icons {
+	
+	.widget-title,
+	p {
+		text-align: center;
+	}
+}
+
+.homepage-map {
+	
+	.widget-title {
+		padding-top: 20px;
+	}
+}
+
+
+/* --- Home Page News & Google Calendar --- */
+.homepage-news {
+	background: #fff;
+	padding: 25px 0 0;
+	
+	.widget-title {
+		border-bottom: 2px solid $color-purple;
+		text-align: left;
+	}
+	
+	article {
+		display: inline-block;
+		width: 50%;
+	}
+	
+	.entry {
+		border-bottom: none;
+		margin-bottom: 0;
+	}
+	
+	.simcal-default-calendar-list {
+		padding: 0;
+		.simcal-calendar-head {
+			padding-bottom: 0;
+		}
+	}
+	
+	.simcal-events-list-container {
+		margin: 5px 0;
+	}
+	
+	.simcal-default-calendar-list ul.simcal-events li.simcal-event {
+		margin-bottom: 0;
+	}
+	
+	.simcal-default-calendar-list .simcal-event-details p {
+		margin: 0 0 .1em;
+	}
+	
+	.button {
+		background: $color-purple;
+		border: 1px solid $color-purple;
+		border-radius: 50px;
+		font-family: $font-sans-3;
+		font-size: 1.8em;
+		margin-top: 15px;
+		text-align: center;
+		text-transform: none;
+		padding: 2px 0;
+		width: 100%
+	}
+	
+	.button:hover {
+		background: #fff;
+		color: $color-purple;
+	}
+	
+	.panel-grid-cell .so-panel {
+		margin-bottom: 0;
+	}
+}
+
+/*-----------------*/
+/***** Apollo  *****/
+/*-----------------*/
+.homepage-news {
+	
+	.featuredpost {
+		padding: 0;
+		
+		img.entry-image {
+			left: 0;
+			position: absolute;
+			-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+			transition: opacity 0.35s, transform 0.35s;
+			-webkit-transform: scale3d(1.05,1.05,1);
+			transform: scale3d(1.05,1.05,1);
+			margin: 0;
+		}
+		
+		img.entry-image:hover {
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+			filter: alpha(opacity=10);
+			-moz-opacity: 0.1;
+			-khtml-opacity: 0.1;
+			opacity: 0.1;
+			-webkit-transform: scale3d(1,1,1);
+			transform: scale3d(1,1,1);
+		}
+		
+		.entry {
+			background-color: #fff;
+			color: #fff;
+			min-height: 380px;
+			float: left;
+			width: 50%;
+			border-bottom: none;
+			overflow: hidden;
+			display: table;
+		}
+		
+		.entry-title a {
+			color: #fff;
+		}
+		
+		article ~ ul,
+		.more-from-category {
+			margin-bottom: 40px;
+			text-align: center;
+		}
+		
+		.entry {
+			border-radius: 0;
+			margin: 0;
+			padding: 0;
+			position: relative;
+			float: left;
+			width: 50%;
+		}
+		
+		.entry-image {
+			display: block;
+			margin-bottom: 0;
+		}
+		
+		.entry-header {
+			display: table-cell;
+			padding: 0 5px 125px;
+			vertical-align: bottom;
+		}
+		
+		.entry-content {
+			padding: 0 40px;
+			
+			p {
+				margin-bottom: 40px;
+			}
+		}
+	}
+	
+	.featured-content {
+		
+		.entry-title {
+			border-right: 8px solid $color-purple;
+			padding: 5px;
+			background: rgba($color-purple, .4);
+			display: inline-block;
+		}
+	}
+	
+	article.entry {
+		
+		header.entry-header::before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(255,255,255,0.5);
+			content: '';
+			-webkit-transition: -webkit-transform 0.6s;
+			transition: transform 0.6s;
+			-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+			transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+			
+			&:hover h2.entry-title {
+				opacity: 1;
+				-webkit-transition-delay: 0.1s;
+				transition-delay: 0.1s;
+			}
+		}
+		
+		&:hover header.entry-header::before {
+			-webkit-transform: scale3d(2,2,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+			transform: scale3d(2,2,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+		}
+	}	
+}
+
+/* --- Home Page Map --- */
+.homepage-map {
+	background: #fff;
+	
+	.widget-title {
+		border-bottom: none;
+		margin-bottom: 15px;
+		text-align: center;
+		
+		&:before,
+		&:after {
+			content: " ";
+			display: inline-block;
+			border-top: 2px solid $color-purple;
+			padding-bottom: 12px;
+			width: 15%;
+		}
+	}
+	
+	p {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+/* --- Home Page Newsletter --- */
+.homepage-newsletter {
+	background: $color-purple url(images/indian-pattern.png) repeat;
+	padding: 30px 0 70px;
+	
+	.wrap {
+		margin: 0 20%;
+	}
+	
+	p {
+		color: #fff;
+		font-size: 30px;
+	}
+	
+	.enews-widget {
+		
+		.widget-title {
+			color: #fff;
+			margin-bottom: 0;
+		}
+		
+		input {
+			float: left;
+			font-size: 20px;
+			width: 65%;
+		}
+		
+		input[type="email"] {
+			color: #848484;
+			font-style: italic;
+		}
+		
+		input[type="submit"] {
+			float: left;
+			width: 35%;
+		}
+	}
+	
+}
+
+/* --- Home Page Social Icons --- */
+.homepage-social-icons {
+	padding: 30px 0;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	.widget-title {
+		margin-bottom: 250px;
+		text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+	}
+}
+
+.parallax-page h1.entry-title {
+	color: #fff;
+	font-size: 2.7rem;
+	left: 0;
+	margin: 0 auto;
+	position:absolute;
+	right: 0;
+	text-align: center;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+	top: 18rem;
+	width: 70%;
+}
+
+/* --- Dances --- */
+.column ul {
+	margin-left: 18px !important;
+}
+
+.accordion-content li {
+	margin-left: 0;
+}

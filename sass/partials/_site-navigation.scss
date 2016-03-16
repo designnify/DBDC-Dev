@@ -1,0 +1,169 @@
+.navigation-container {
+	margin-top: -265px;
+	max-height: 76px;
+}
+
+.genesis-nav-menu {
+	clear: both;
+	font-size: 16px;
+	line-height: 1;
+	width: 100%;
+
+
+	.menu-item {
+		display: inline-block;
+		text-align: left;
+	}
+
+	a {
+		color: #333;
+		display: block;
+		padding: 24px 20px 14px;
+	}
+
+	a:hover,
+	.current-menu-item > a,
+	.sub-menu .current-menu-item > a:hover {
+		color: #e5554e;
+	}
+
+	.sub-menu {
+		left: -9999px;
+		opacity: 0;
+		position: absolute;
+		-webkit-transition: opacity .4s ease-in-out;
+		-moz-transition:    opacity .4s ease-in-out;
+		-ms-transition:     opacity .4s ease-in-out;
+		-o-transition:      opacity .4s ease-in-out;
+		transition:         opacity .4s ease-in-out;
+		width: 200px;
+		z-index: 99;
+
+		a {
+			border-top: 0;
+			font-size: 14px;
+			padding: 20px;
+			position: relative;
+			width: 140px;
+		}
+
+		.sub-menu {
+			margin: -55px 0 0 199px;
+		}
+	}
+
+	.menu-item:hover {
+		position: static;
+
+		> .sub-menu {
+			left: auto;
+			opacity: 1;
+		}
+	}
+
+	> .first > a {
+		padding-left: 0;
+	}
+
+	> .last > a {
+		padding-right: 0;
+	}
+
+	> .right {
+		color: #fff;
+		float: right;
+		list-style-type: none;
+		padding: 30px 0;
+	}
+
+	> .right > a {
+		display: inline;
+		padding: 0;
+	}
+
+	> .rss > a {
+		margin-left: 48px;
+	}
+
+	> .search {
+		padding: 10px 0 0;
+	}
+}
+
+/* Site Header Navigation
+--------------------------------------------- */
+
+.site-header {
+
+	.sub-menu {
+		border-top: 1px solid #eee;
+
+		.sub-menu {
+			margin-top: -56px;
+		}
+	}
+
+	.genesis-nav-menu li li {
+		margin-left: 0;
+	}
+}
+
+/* Both Navigations
+--------------------------------------------- */
+
+.nav-primary,
+.nav-secondary {
+	background-color: transparent;
+	width: 45%;
+	
+	li {
+		border-right: 2px solid #fff;
+		
+		&:last-child {
+			border-right: none;
+		}
+	}
+	
+	a,
+	sub-menu a {
+		border-bottom: 2px solid transparent;
+		color: #fff;
+		font-family: $font-sans-2;
+		font-size: 15px;
+		text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+		text-transform: uppercase;
+	}
+	
+	a:hover,
+	.current-menu-item > a,
+	.sub-menu .current-menu-item > a:hover {
+		border-color: $color-purple;
+		color: $color-link;
+		text-shadow: none;
+	}
+	
+	.sub-menu a {
+		color: #fff;
+		border: 1px solid #fff;
+		
+		&:hover {
+			color: $color-purple;
+		}
+	}
+}
+
+/* Primary Navigation
+--------------------------------------------- */
+
+.nav-primary {
+	float: left;
+	text-align: right;
+}
+
+/* Secondary Navigation
+--------------------------------------------- */
+
+.nav-secondary {
+	float: right;
+	text-align: left;
+}
