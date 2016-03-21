@@ -1435,8 +1435,6 @@ Site Navigation
       padding: 20px;
       position: relative;
       width: 140px; }
-    .genesis-nav-menu .sub-menu li {
-      border-right: none; }
     .genesis-nav-menu .sub-menu .sub-menu {
       margin: -55px 0 0 199px; }
   .genesis-nav-menu .menu-item:hover {
@@ -1508,6 +1506,9 @@ Site Navigation
     .nav-primary .sub-menu a:hover,
     .nav-secondary .sub-menu a:hover {
       color: #D40194; }
+  .nav-primary .sub-menu li,
+  .nav-secondary .sub-menu li {
+    border-right: none; }
 
 /* Primary Navigation
 --------------------------------------------- */
