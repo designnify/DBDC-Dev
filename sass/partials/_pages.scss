@@ -422,10 +422,53 @@
 }
 
 /* --- Dances --- */
-.column ul {
-	margin-left: 18px !important;
+.workout {
+	background: $color-workout;
+}
+
+.dance {
+	background: $color-dance;
+}
+
+.column {
+	ul {
+		margin-left: 18px !important;
+	}
+	
+	h4 {
+		background: $color-purple;
+		border-left: 8px solid $color-purple-dark;
+		color: #fff;
+		padding: 5px;
+	}
 }
 
 .accordion-content li {
 	margin-left: 0;
+}
+
+/* --- Prices --- */
+.prices {
+	
+	thead {
+		background: $color-purple;
+		color: #fff;
+	}
+	
+	tbody {
+		background: $color-purple-dark;
+		color: #fff;
+	}
+	
+	th, td {
+		padding: 3px 8px;
+	}
+	
+	th:nth-child(2),
+	th:nth-child(3),
+	td:nth-child(2),
+	td:nth-child(3) {
+		text-align: right;
+	}
+	
 }

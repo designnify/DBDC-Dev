@@ -1251,11 +1251,37 @@ Pages
     color: #D40194; }
 
 /* --- Dances --- */
+.workout {
+  background: #7F03BD; }
+
+.dance {
+  background: #6504FC; }
+
 .column ul {
   margin-left: 18px !important; }
+.column h4 {
+  background: #D40194;
+  border-left: 8px solid #890060;
+  color: #fff;
+  padding: 5px; }
 
 .accordion-content li {
   margin-left: 0; }
+
+/* --- Prices --- */
+.prices thead {
+  background: #D40194;
+  color: #fff; }
+.prices tbody {
+  background: #890060;
+  color: #fff; }
+.prices th, .prices td {
+  padding: 3px 8px; }
+.prices th:nth-child(2),
+.prices th:nth-child(3),
+.prices td:nth-child(2),
+.prices td:nth-child(3) {
+  text-align: right; }
 
 /*
 Plugins
