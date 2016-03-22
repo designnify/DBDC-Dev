@@ -23,6 +23,7 @@
 	.button {
 		background: transparent;
 		border: 2px solid #fff;
+		border-radius: 0;
 		font-family: $font-sans-2;
 		font-size: 30px;
 		padding: 10px 40px;
@@ -31,6 +32,7 @@
 	.button:hover {
 		background: $color-purple;
 		border: none;
+		color: #fff;
 		text-shadow: none;
 	}
 	
