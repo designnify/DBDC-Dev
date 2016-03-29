@@ -1469,69 +1469,82 @@ Pages
   width: 70%; }
 
 /* --- Dance Crew --- */
-/*
-.test {
-	background: url(http://my.dev/wp-content/uploads/2016/03/Untitled2.png) no-repeat;
-	background-position: right center;
-	background-size: contain;
-}
-*/
+/* line 405, sass/partials/_pages.scss */
+.show-swiss .envira-gallery-item:nth-child(1) {
+  -webkit-transform: rotate(12deg);
+  transform: rotate(12deg); }
+/* line 411, sass/partials/_pages.scss */
+.show-swiss .envira-gallery-item:nth-child(2) {
+  -webkit-transform: rotate(-9deg);
+  transform: rotate(-9deg); }
+/* line 417, sass/partials/_pages.scss */
+.show-swiss .envira-gallery-item:nth-child(3) {
+  margin: auto;
+  left: 0;
+  right: 0; }
+/* line 423, sass/partials/_pages.scss */
+.show-swiss .envira-gallery-item img {
+  border: 5px solid #D40194;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; }
+
 /* --- Catalog --- */
-/* line 414, sass/partials/_pages.scss */
+/* line 434, sass/partials/_pages.scss */
 .catalog h2 {
   background: #D40194;
   color: #fff;
   font-size: 25px;
   height: 80px;
   padding: 10px 5px; }
-/* line 422, sass/partials/_pages.scss */
+/* line 442, sass/partials/_pages.scss */
 .catalog .button {
   background: #D40194;
   border: 1px solid #D40194;
   border-radius: 50px;
   text-align: center;
   width: 100%; }
-  /* line 429, sass/partials/_pages.scss */
+  /* line 449, sass/partials/_pages.scss */
   .catalog .button:hover {
     background: #fff;
     color: #D40194; }
 
 /* --- Dances --- */
-/* line 437, sass/partials/_pages.scss */
+/* line 457, sass/partials/_pages.scss */
 .workout {
   background: #7F03BD; }
 
-/* line 441, sass/partials/_pages.scss */
+/* line 461, sass/partials/_pages.scss */
 .dance {
   background: #6504FC; }
 
-/* line 446, sass/partials/_pages.scss */
+/* line 466, sass/partials/_pages.scss */
 .column ul {
   margin-left: 18px !important; }
-/* line 450, sass/partials/_pages.scss */
+/* line 470, sass/partials/_pages.scss */
 .column h4 {
   background: #D40194;
   border-left: 8px solid #890060;
   color: #fff;
   padding: 5px; }
 
-/* line 458, sass/partials/_pages.scss */
+/* line 478, sass/partials/_pages.scss */
 .accordion-content li {
   margin-left: 0; }
 
 /* --- Prices --- */
-/* line 465, sass/partials/_pages.scss */
+/* line 485, sass/partials/_pages.scss */
 .prices thead {
   background: #D40194;
   color: #fff; }
-/* line 470, sass/partials/_pages.scss */
+/* line 490, sass/partials/_pages.scss */
 .prices tbody {
   background: #890060;
   color: #fff; }
-/* line 475, sass/partials/_pages.scss */
+/* line 495, sass/partials/_pages.scss */
 .prices th, .prices td {
   padding: 3px 8px; }
-/* line 479, sass/partials/_pages.scss */
+/* line 499, sass/partials/_pages.scss */
 .prices th:nth-child(2),
 .prices th:nth-child(3),
 .prices td:nth-child(2),
@@ -1539,14 +1552,14 @@ Pages
   text-align: right; }
 
 /* --- Teachers --- */
-/* line 489, sass/partials/_pages.scss */
+/* line 509, sass/partials/_pages.scss */
 #danny,
 #kati,
 #ekaterina {
   border-bottom: 1px solid rgba(212, 1, 148, 0.3); }
 
 /* --- Terms & Condition --- */
-/* line 496, sass/partials/_pages.scss */
+/* line 516, sass/partials/_pages.scss */
 .title-deco {
   border-bottom: 2px solid #D40194;
   padding-bottom: 5px; }
@@ -1654,7 +1667,7 @@ Site Header
 
 /* line 40, sass/partials/_site-header.scss */
 .header-image .site-title > a {
-  background: url(images/DBDC-Logo.png) no-repeat left;
+  background: url(images/DBDC-Logo.svg) no-repeat left;
   float: left;
   min-height: 260px;
   width: 100%; }

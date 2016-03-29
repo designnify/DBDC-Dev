@@ -39,20 +39,6 @@ add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list'
 //* Add viewport meta tag for mobile browsers
 add_theme_support( 'genesis-responsive-viewport' );
 
-//* Add support for custom background
-add_theme_support( 'custom-background' );
-
-//* Add support for custom header
-add_theme_support( 'custom-header', array(
-	'default-image'   => get_stylesheet_directory_uri() . '/images/DBDC-Logo.png',
-	'width'           => 115,
-	'height'          => 260,
-	'flex-width'      => false,
-	'flex-height'     => false,
-	'header-selector' => '.site-title a',
-	'header-text'     => false,
-) );
-
 //* Add new tumbnail image sizes for post excerpts
 add_image_size( 'post-image-large', 700, 990, TRUE );
 

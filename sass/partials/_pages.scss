@@ -400,13 +400,33 @@
 }
 
 /* --- Dance Crew --- */
-/*
-.test {
-	background: url(http://my.dev/wp-content/uploads/2016/03/Untitled2.png) no-repeat;
-	background-position: right center;
-	background-size: contain;
+.show-swiss {
+	
+	.envira-gallery-item:nth-child(1) {
+		-ms-transform: rotate(12deg);
+		-webkit-transform: rotate(12deg);
+		transform: rotate(12deg);
+	}
+	
+	.envira-gallery-item:nth-child(2) {
+		-ms-transform: rotate(-9deg);
+		-webkit-transform: rotate(-9deg);
+		transform: rotate(-9deg);
+	}
+	
+	.envira-gallery-item:nth-child(3) {
+		margin: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.envira-gallery-item img {
+		border: 5px solid $color-purple;
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+	}
 }
-*/
 
 
 /* --- Catalog --- */
