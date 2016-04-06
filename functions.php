@@ -166,6 +166,16 @@ remove_action( 'genesis_entry_footer', 'genesis_entry_footer_markup_close', 15 )
 remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
 remove_action( 'wp_print_styles', 'print_emoji_styles' );
 
+//* Add support for structural wraps
+add_theme_support( 'genesis-structural-wraps', array(
+	'header',
+	'nav',
+	'subnav',
+	'site-inner',
+	'footer-widgets',
+	'footer'
+) );
+
 //* Register widget areas for home page
 genesis_register_sidebar( array(
 	'id'            => 'hero-video',
@@ -192,3 +202,18 @@ genesis_register_sidebar( array(
 	'name'          => __( 'Homepage Social Icons', 'dbdc' ),
 	'description'   => __( 'This is the homepage social icons section', 'dbdc' ),
 ));
+genesis_register_sidebar( array(
+	'id'            => 'dance-crew-widget',
+	'name'          => __( 'Dance Crew Widget', 'dbdc' ),
+	'description'   => __( 'This is the Dance Crew Widget for the Dance Crew Page', 'dbdc' ),
+));
+
+//* Hooks the widgets to corect location in respective page
+add_action( 'genesis_after_content_sidebar_wrap', 'dbdc_dance_crew_widget_genesis' );
+function dbdc_dance_crew_widget_genesis() {
+	if ( is_page('7') )
+	genesis_widget_area('dance-crew-widget', array(
+		'before'	=> '<div class="dance-crew-widget"><div class="wrap">',
+		'after'		=> '</div></div>',
+		));
+}

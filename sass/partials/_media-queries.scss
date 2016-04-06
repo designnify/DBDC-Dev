@@ -2,7 +2,7 @@
 
 	.site-inner,
 	.wrap {
-		max-width: 960px;
+		max-width: none;
 	}
 
 	.content-sidebar-sidebar .content-sidebar-wrap,
@@ -43,15 +43,16 @@
 	.footer-widgets .widget-title {
 		font-size: 25px;
 	}
+	
+	.footer-widgets .wrap,
+	.homepage-news .wrap,
+	.dance-crew-widget .wrap {
+		max-width: 960px;
+	}
 
 }
 
 @media only screen and (max-width: 1023px) {
-
-	.site-inner,
-	.wrap {
-		max-width: 768px;
-	}
 
 	.content,
 	.content-sidebar-sidebar .content,
@@ -161,8 +162,9 @@
 		padding: 0;
 	}
 
-	.site-inner,
-	.wrap {
+	.footer-widgets .wrap,
+	.homepage-news .wrap,
+	.dance-crew-widget .wrap {
 		padding-left: 5%;
 		padding-right: 5%;
 	}
