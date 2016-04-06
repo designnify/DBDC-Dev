@@ -2360,13 +2360,14 @@ Media Queries
     padding: 0; }
 
   /* line 165, sass/partials/_media-queries.scss */
+  .content .entry,
   .footer-widgets .wrap,
   .homepage-news .wrap,
   .dance-crew-widget .wrap {
     padding-left: 5%;
     padding-right: 5%; }
 
-  /* line 172, sass/partials/_media-queries.scss */
+  /* line 173, sass/partials/_media-queries.scss */
   .archive-description,
   .author-box,
   .comment-respond,
@@ -2376,7 +2377,7 @@ Media Queries
   .site-header {
     padding: 0; }
 
-  /* line 182, sass/partials/_media-queries.scss */
+  /* line 183, sass/partials/_media-queries.scss */
   .archive-description,
   .author-box,
   .comment-respond,
@@ -2386,11 +2387,11 @@ Media Queries
   .sidebar .widget {
     box-shadow: none; }
 
-  /* line 192, sass/partials/_media-queries.scss */
+  /* line 193, sass/partials/_media-queries.scss */
   .archive-pagination li a {
     margin-bottom: 4px; }
 
-  /* line 196, sass/partials/_media-queries.scss */
+  /* line 197, sass/partials/_media-queries.scss */
   .five-sixths,
   .four-sixths,
   .one-fourth,
@@ -2405,56 +2406,57 @@ Media Queries
     margin: 0;
     width: 100%; }
 
-  /* line 211, sass/partials/_media-queries.scss */
+  /* line 212, sass/partials/_media-queries.scss */
   .sidebar .widget.enews-widget {
     padding: 40px; }
 
-  /* line 215, sass/partials/_media-queries.scss */
+  /* line 216, sass/partials/_media-queries.scss */
   .site-header {
     background: #D40194;
     min-height: 50px; }
-    /* line 219, sass/partials/_media-queries.scss */
+    /* line 220, sass/partials/_media-queries.scss */
     .site-header .wrap {
       padding: 0 5%; }
-    /* line 223, sass/partials/_media-queries.scss */
+    /* line 224, sass/partials/_media-queries.scss */
     .site-header .title-area {
       float: none;
       height: 45px;
       padding: 0; }
 
-  /* line 230, sass/partials/_media-queries.scss */
+  /* line 231, sass/partials/_media-queries.scss */
   .header-image .site-title > a {
     background: url(images/DBDC-Logo-Mobile.svg) no-repeat left !important;
     min-height: 45px; }
 
-  /* line 235, sass/partials/_media-queries.scss */
+  /* line 236, sass/partials/_media-queries.scss */
   .navigation-container {
     margin-top: 0; }
 
-  /* line 239, sass/partials/_media-queries.scss */
+  /* line 240, sass/partials/_media-queries.scss */
   .nav-primary {
     background: #D40194;
     width: 100%; }
-    /* line 241, sass/partials/_media-queries.scss */
+    /* line 242, sass/partials/_media-queries.scss */
     .nav-primary .wrap {
       padding: 0; }
-    /* line 247, sass/partials/_media-queries.scss */
+    /* line 248, sass/partials/_media-queries.scss */
     .nav-primary li {
       border: none; }
 
-  /* line 254, sass/partials/_media-queries.scss */
+  /* line 255, sass/partials/_media-queries.scss */
   .hero-video {
     height: 60vh; }
 
-  /* line 259, sass/partials/_media-queries.scss */
+  /* line 260, sass/partials/_media-queries.scss */
   .homepage-news .widget-title {
     text-align: center; }
 
-  /* line 264, sass/partials/_media-queries.scss */
+  /* line 265, sass/partials/_media-queries.scss */
   .homepage-newsletter .wrap {
-    margin: 0; }
+    margin: 0 auto;
+    max-width: 550px; }
 
-  /* line 270, sass/partials/_media-queries.scss */
+  /* line 272, sass/partials/_media-queries.scss */
   .catalog h2 {
     background: none;
     border-bottom: 2px solid #D40194;
@@ -2463,32 +2465,32 @@ Media Queries
 
   	/* Responsive Navigation
   --------------------------------------------- */
-  /* line 281, sass/partials/_media-queries.scss */
+  /* line 283, sass/partials/_media-queries.scss */
   .responsive-menu-icon,
   .responsive-menu .menu-item-has-children {
     cursor: pointer; }
 
-  /* line 286, sass/partials/_media-queries.scss */
+  /* line 288, sass/partials/_media-queries.scss */
   .responsive-menu .menu-item,
   .responsive-menu-icon {
     display: block; }
 
-  /* line 291, sass/partials/_media-queries.scss */
+  /* line 293, sass/partials/_media-queries.scss */
   .responsive-menu,
   .responsive-menu > .menu-item > .sub-menu {
     display: none; }
 
-  /* line 296, sass/partials/_media-queries.scss */
+  /* line 298, sass/partials/_media-queries.scss */
   .responsive-menu > .menu-item > .sub-menu {
     background: #890060;
     margin: auto;
     width: 100%; }
 
-  /* line 302, sass/partials/_media-queries.scss */
+  /* line 304, sass/partials/_media-queries.scss */
   .responsive-menu-icon {
     text-align: center; }
 
-  /* line 306, sass/partials/_media-queries.scss */
+  /* line 308, sass/partials/_media-queries.scss */
   .responsive-menu-icon::before {
     color: #fff;
     content: "\f333";
@@ -2497,7 +2499,7 @@ Media Queries
     margin: 0 auto;
     padding: 4px; }
 
-  /* line 315, sass/partials/_media-queries.scss */
+  /* line 317, sass/partials/_media-queries.scss */
   .responsive-menu > .menu-item-has-children:before {
     clear: both;
     color: #fff;
@@ -2511,11 +2513,11 @@ Media Queries
     text-align: right;
     z-index: 9999; }
 
-  /* line 329, sass/partials/_media-queries.scss */
+  /* line 331, sass/partials/_media-queries.scss */
   .responsive-menu .menu-open.menu-item-has-children:before {
     content: "\f343"; }
 
-  /* line 333, sass/partials/_media-queries.scss */
+  /* line 335, sass/partials/_media-queries.scss */
   .nav-primary a:hover,
   .nav-primary .current-menu-item > a,
   .nav-primary .sub-menu a:hover,
@@ -2525,31 +2527,31 @@ Media Queries
   .nav-secondary .sub-menu .current-menu-item > a:hover {
     color: #fff; }
 
-  /* line 345, sass/partials/_media-queries.scss */
+  /* line 347, sass/partials/_media-queries.scss */
   .genesis-nav-menu .sub-menu {
     position: relative; }
-    /* line 348, sass/partials/_media-queries.scss */
+    /* line 350, sass/partials/_media-queries.scss */
     .genesis-nav-menu .sub-menu a {
       border: none;
       width: auto; }
-  /* line 354, sass/partials/_media-queries.scss */
+  /* line 356, sass/partials/_media-queries.scss */
   .genesis-nav-menu .menu-item {
     text-align: center; } }
 @media only screen and (max-width: 414px) {
-  /* line 367, sass/partials/_media-queries.scss */
+  /* line 369, sass/partials/_media-queries.scss */
   .homepage-news .featuredpost .entry {
     margin-bottom: 10px;
     width: 100%; }
 
-  /* line 375, sass/partials/_media-queries.scss */
+  /* line 377, sass/partials/_media-queries.scss */
   .homepage-news .button {
     font-size: 1.5em; }
 
-  /* line 379, sass/partials/_media-queries.scss */
+  /* line 381, sass/partials/_media-queries.scss */
   .homepage-map .widget-title {
     font-size: 25px; }
 
-  /* line 383, sass/partials/_media-queries.scss */
+  /* line 385, sass/partials/_media-queries.scss */
   .homepage-map .widget-title:before,
   .homepage-map .widget-title:after {
     padding-bottom: 8px; } }

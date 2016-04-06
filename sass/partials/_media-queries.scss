@@ -161,7 +161,8 @@
 	.dbdc-home .site-inner {
 		padding: 0;
 	}
-
+	
+	.content .entry,
 	.footer-widgets .wrap,
 	.homepage-news .wrap,
 	.dance-crew-widget .wrap {
@@ -262,7 +263,8 @@
 	}
 	
 	.homepage-newsletter .wrap {
-		margin: 0;
+		margin: 0 auto;
+		max-width: 550px;
 	}
 	
 	//* Catalog page
