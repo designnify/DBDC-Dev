@@ -404,6 +404,15 @@
 	width: 70%;
 }
 
+/* --- Common classes --- */
+.title-deco {
+	border-bottom: 2px solid $color-purple;
+	font-size: 40px;
+	padding-bottom: 5px;
+}
+
+.widget-title
+
 /* --- Dance Crew --- */
 .show-swiss {
 	
@@ -452,8 +461,22 @@
 	}
 }
 
+<<<<<<< HEAD
 
 /* --- Services --- */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+/* --- Catalog --- */
+=======
+
+/* --- Services --- */
+>>>>>>> Stashed changes
+=======
+
+/* --- Services --- */
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
 .catalog {
 	h2 {
 		background: $color-purple;
@@ -518,25 +541,67 @@ h3.accordion-header.accordion-default-colors {
 #accordion-container {
   width: 100%;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
+=======
+
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
 #accordion-container .accordion-header,
 #accordion-container accordion-content {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
+=======
+
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
 #accordion-container .accordion-header {
   background-color: #FF3600;
   color: #fff;
   cursor: pointer;
   padding: 2px;
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  font-family: 'Oswald', sans-serif;
+}
+#accordion-container .accordion-content {
+  font-family: 'Lato', sans-serif;
+}
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
 }
 
 #accordion-container .accordion-content {
   font-family: 'Lato', sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
 .accordion-active + .accordion-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
@@ -574,10 +639,4 @@ h3.accordion-header.accordion-default-colors {
 #kati,
 #ekaterina {
 	border-bottom: 1px solid rgba(212, 1, 148, .3);
-}
-
-/* --- Terms & Condition --- */
-.title-deco {
-	border-bottom: 2px solid $color-purple;
-	padding-bottom: 5px;
 }
