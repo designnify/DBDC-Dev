@@ -1476,6 +1476,7 @@ Pages
   width: 70%; }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /* --- Common classes --- */
 /* line 408, sass/partials/_pages.scss */
 .title-deco {
@@ -1496,6 +1497,8 @@ Pages
 /* line 431, sass/partials/_pages.scss */
 .widget-title
 =======
+=======
+>>>>>>> Stashed changes
 /* Dance Crew
 --------------------------------------------- */
 /* line 5, sass/partials/_dance-crew.scss */
@@ -1507,14 +1510,21 @@ Pages
   -webkit-transform: rotate(-9deg);
   transform: rotate(-9deg); }
 /* line 17, sass/partials/_dance-crew.scss */
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 .show-swiss .envira-gallery-item:nth-child(3) {
   margin: auto;
   left: 0;
   right: 0; }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /* line 437, sass/partials/_pages.scss */
 .widget-title
+=======
+/* line 23, sass/partials/_dance-crew.scss */
+>>>>>>> Stashed changes
 =======
 /* line 23, sass/partials/_dance-crew.scss */
 >>>>>>> Stashed changes
@@ -1524,6 +1534,7 @@ Pages
   margin: 0 auto;
   max-width: 100%; }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 /* line 447, sass/partials/_pages.scss */
 .dance-crew-widget .wrap {
@@ -1546,6 +1557,12 @@ Pages
 .dance-crew-widget .wrap {
   max-width: 1140px; }
 
+=======
+/* line 33, sass/partials/_dance-crew.scss */
+.dance-crew-widget .wrap {
+  max-width: 1140px; }
+
+>>>>>>> Stashed changes
 /* line 38, sass/partials/_dance-crew.scss */
 .novices-to-artists {
   background-image: url(images/Novices-to-artists.png);
@@ -1560,6 +1577,9 @@ Pages
 /* Services
 --------------------------------------------- */
 /* line 4, sass/partials/_services.scss */
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 .catalog h2 {
   background: #D40194;
@@ -1568,7 +1588,11 @@ Pages
   height: 80px;
   padding: 10px 5px; }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /* line 474, sass/partials/_pages.scss */
+=======
+/* line 12, sass/partials/_services.scss */
+>>>>>>> Stashed changes
 =======
 /* line 12, sass/partials/_services.scss */
 >>>>>>> Stashed changes
@@ -1579,7 +1603,11 @@ Pages
   text-align: center;
   width: 100%; }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   /* line 481, sass/partials/_pages.scss */
+=======
+  /* line 19, sass/partials/_services.scss */
+>>>>>>> Stashed changes
 =======
   /* line 19, sass/partials/_services.scss */
 >>>>>>> Stashed changes
@@ -1588,18 +1616,24 @@ Pages
     color: #D40194; }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /* --- Dances --- */
 /* line 490, sass/partials/_pages.scss */
 .column ul {
   margin-left: 18px !important; }
 /* line 494, sass/partials/_pages.scss */
 =======
+=======
+>>>>>>> Stashed changes
 /* Services
 --------------------------------------------- */
 /* line 4, sass/partials/_dances.scss */
 .column ul {
   margin-left: 18px !important; }
 /* line 8, sass/partials/_dances.scss */
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 .column h4 {
   background: #D40194;
@@ -1607,6 +1641,7 @@ Pages
   color: #fff;
   padding: 5px; }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 /* line 502, sass/partials/_pages.scss */
 h3.accordion-header {
@@ -1727,6 +1762,70 @@ h3.accordion-header.accordion-default-colors {
 .dance {
   background-color: #5B04E2; }
 
+=======
+/*
+h3.accordion-header {
+	padding: 0.3rem 1.5rem;
+}
+
+h3.accordion-header.accordion-default-colors {
+// 	color: #fff;
+	
+	&:hover {
+		color: #fff;
+		text-decoration: underline;
+	}
+}
+*/
+/*
+.accordion-content {
+	
+	img {
+		border: 7px solid $color-purple;
+	}
+	
+	li {
+		margin-left: 0;
+	}
+}
+
+#accordion-container {
+	width: 100%;
+}
+
+#accordion-container .accordion-header,
+#accordion-container accordion-content {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#accordion-container .accordion-header {
+	border: 1px solid #ececec;
+	color: #fff;
+	cursor: pointer;
+	padding: 0.3rem 1.5rem;
+}
+
+#accordion-container .accordion-content {
+  	font-family: 'Lato', sans-serif;
+}
+
+.accordion-active + .accordion-content {
+  	border-left: 1px solid #ddd;
+  	border-right: 1px solid #ddd;
+  	border-bottom: 1px solid #ddd;
+}
+*/
+/* line 72, sass/partials/_dances.scss */
+.workout {
+  background-color: #54027D; }
+
+/* line 76, sass/partials/_dances.scss */
+.dance {
+  background-color: #5B04E2; }
+
+>>>>>>> Stashed changes
 /* line 81, sass/partials/_dances.scss */
 .single-faq.expand-faq {
   cursor: pointer; }
@@ -1780,6 +1879,9 @@ h3.accordion-header.accordion-default-colors {
 .prices th, .prices td {
   padding: 3px 8px; }
 /* line 19, sass/partials/_prices.scss */
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 .prices th:nth-child(2),
 .prices th:nth-child(3),
@@ -1792,7 +1894,11 @@ h3.accordion-header.accordion-default-colors {
 
 /* --- Teachers --- */
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /* line 578, sass/partials/_pages.scss */
+=======
+/* line 2, sass/partials/_teachers.scss */
+>>>>>>> Stashed changes
 =======
 /* line 2, sass/partials/_teachers.scss */
 >>>>>>> Stashed changes
@@ -2697,17 +2803,23 @@ Media Queries
     max-width: 550px; }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   /* line 276, sass/partials/_media-queries.scss */
   .dance-crew-widget .novices-to-artists {
     display: none; }
 
   /* line 283, sass/partials/_media-queries.scss */
 =======
+=======
+>>>>>>> Stashed changes
   /* line 275, sass/partials/_media-queries.scss */
   .novices-to-artists {
     display: none; }
 
   /* line 281, sass/partials/_media-queries.scss */
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   .catalog h2 {
     background: none;
@@ -2718,7 +2830,11 @@ Media Queries
   	/* Responsive Navigation
   --------------------------------------------- */
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   /* line 294, sass/partials/_media-queries.scss */
+=======
+  /* line 292, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
 =======
   /* line 292, sass/partials/_media-queries.scss */
 >>>>>>> Stashed changes
@@ -2727,7 +2843,11 @@ Media Queries
     cursor: pointer; }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   /* line 299, sass/partials/_media-queries.scss */
+=======
+  /* line 297, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
 =======
   /* line 297, sass/partials/_media-queries.scss */
 >>>>>>> Stashed changes
@@ -2736,7 +2856,11 @@ Media Queries
     display: block; }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   /* line 304, sass/partials/_media-queries.scss */
+=======
+  /* line 302, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
 =======
   /* line 302, sass/partials/_media-queries.scss */
 >>>>>>> Stashed changes
@@ -2745,7 +2869,11 @@ Media Queries
     display: none; }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   /* line 309, sass/partials/_media-queries.scss */
+=======
+  /* line 307, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
 =======
   /* line 307, sass/partials/_media-queries.scss */
 >>>>>>> Stashed changes
@@ -2755,17 +2883,23 @@ Media Queries
     width: 100%; }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   /* line 315, sass/partials/_media-queries.scss */
   .responsive-menu-icon {
     text-align: center; }
 
   /* line 319, sass/partials/_media-queries.scss */
 =======
+=======
+>>>>>>> Stashed changes
   /* line 313, sass/partials/_media-queries.scss */
   .responsive-menu-icon {
     text-align: center; }
 
   /* line 317, sass/partials/_media-queries.scss */
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   .responsive-menu-icon::before {
     color: #fff;
@@ -2776,7 +2910,11 @@ Media Queries
     padding: 4px; }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   /* line 328, sass/partials/_media-queries.scss */
+=======
+  /* line 326, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
 =======
   /* line 326, sass/partials/_media-queries.scss */
 >>>>>>> Stashed changes
@@ -2794,11 +2932,19 @@ Media Queries
     z-index: 9999; }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   /* line 342, sass/partials/_media-queries.scss */
   .responsive-menu .menu-open.menu-item-has-children:before {
     content: "\f343"; }
 
   /* line 346, sass/partials/_media-queries.scss */
+=======
+  /* line 340, sass/partials/_media-queries.scss */
+  .responsive-menu .menu-open.menu-item-has-children:before {
+    content: "\f343"; }
+
+  /* line 344, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
 =======
   /* line 340, sass/partials/_media-queries.scss */
   .responsive-menu .menu-open.menu-item-has-children:before {
@@ -2815,6 +2961,7 @@ Media Queries
   .nav-secondary .sub-menu .current-menu-item > a:hover {
     color: #fff; }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   /* line 358, sass/partials/_media-queries.scss */
   .genesis-nav-menu .sub-menu {
@@ -2836,16 +2983,29 @@ Media Queries
     .genesis-nav-menu .sub-menu a {
       border: none;
       width: auto; }
+=======
+  /* line 356, sass/partials/_media-queries.scss */
+  .genesis-nav-menu .sub-menu {
+    position: relative; }
+    /* line 359, sass/partials/_media-queries.scss */
+    .genesis-nav-menu .sub-menu a {
+      border: none;
+      width: auto; }
+>>>>>>> Stashed changes
   /* line 365, sass/partials/_media-queries.scss */
   .genesis-nav-menu .menu-item {
     text-align: center; } }
 @media only screen and (max-width: 414px) {
   /* line 378, sass/partials/_media-queries.scss */
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   .homepage-news .featuredpost .entry {
     margin-bottom: 10px;
     width: 100%; }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   /* line 388, sass/partials/_media-queries.scss */
   .homepage-news .button {
@@ -2857,6 +3017,8 @@ Media Queries
 
   /* line 396, sass/partials/_media-queries.scss */
 =======
+=======
+>>>>>>> Stashed changes
   /* line 386, sass/partials/_media-queries.scss */
   .homepage-news .button {
     font-size: 1.5em; }
@@ -2866,6 +3028,9 @@ Media Queries
     font-size: 25px; }
 
   /* line 394, sass/partials/_media-queries.scss */
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   .homepage-map .widget-title:before,
   .homepage-map .widget-title:after {

@@ -797,7 +797,11 @@
 		{
 			"followForSyntaxChecking": 1,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"linkedFileAbbreviatedPath": "\/js\/partials\/accordion.js",
+=======
+			"linkedFileAbbreviatedPath": "\/js\/partials\/responsive-menu.js",
+>>>>>>> Stashed changes
 =======
 			"linkedFileAbbreviatedPath": "\/js\/partials\/responsive-menu.js",
 >>>>>>> Stashed changes
@@ -807,7 +811,11 @@
 		{
 			"followForSyntaxChecking": 1,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"linkedFileAbbreviatedPath": "\/js\/partials\/backstretch-init.js",
+=======
+			"linkedFileAbbreviatedPath": "\/js\/partials\/scrollto-init.js",
+>>>>>>> Stashed changes
 =======
 			"linkedFileAbbreviatedPath": "\/js\/partials\/scrollto-init.js",
 >>>>>>> Stashed changes
@@ -816,6 +824,7 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			"linkedFileAbbreviatedPath": "\/js\/partials\/backstretch-set.js",
 			"position": 2,
@@ -835,11 +844,16 @@
 			"linkedFileAbbreviatedPath": "\/js\/partials\/jquery.localScroll.min.js",
 			"position": 2,
 >>>>>>> Stashed changes
+=======
+			"linkedFileAbbreviatedPath": "\/js\/partials\/jquery.localScroll.min.js",
+			"position": 2,
+>>>>>>> Stashed changes
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/js\/partials\/jquery.scrollTo.min.js",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			"position": 5,
 			"type": 0
@@ -857,13 +871,20 @@
 =======
 			"position": 3,
 >>>>>>> Stashed changes
+=======
+			"position": 3,
+>>>>>>> Stashed changes
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/js\/partials\/singular-scripts.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"position": 8,
+=======
+			"position": 4,
+>>>>>>> Stashed changes
 =======
 			"position": 4,
 >>>>>>> Stashed changes
