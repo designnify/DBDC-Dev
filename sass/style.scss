@@ -40,8 +40,11 @@
 		- Featured Content
 	- Pages
 		- Home Page
-		- Catalog
+		- Dance Crew
+		- Services
 		- Dances
+		- Prices
+		- Teachers
 	- Plugins
 		- Genesis eNews Extended
 		- Genesis Latest Tweets
@@ -106,7 +109,12 @@ Widgets
 /*
 Pages
 ---------------------------------------------------------------------------------------------------- */
-@import "partials/pages";
+@import "partials/home-page";
+@import "partials/dance-crew";
+@import "partials/services";
+@import "partials/dances";
+@import "partials/prices";
+@import "partials/teachers";
 
 
 /*

@@ -1,0 +1,30 @@
+/* Prices
+--------------------------------------------- */
+.prices {
+	
+	thead {
+		background: $color-purple;
+		color: #fff;
+	}
+	
+	tbody {
+		background: $color-purple-dark;
+		color: #fff;
+	}
+	
+	th, td {
+		padding: 3px 8px;
+	}
+	
+	th:nth-child(2),
+	th:nth-child(3),
+	td:nth-child(2),
+	td:nth-child(3) {
+		text-align: right;
+	}
+	
+	td {
+		border-top: none;
+	}
+	
+}
