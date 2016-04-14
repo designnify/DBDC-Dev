@@ -1930,9 +1930,10 @@ Site Navigation
     color: #fff;
     font-family: Oswald, sans-serif;
     font-size: 15px;
+    font-weight: 400;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
     text-transform: uppercase; }
-  /* line 137, sass/partials/_site-navigation.scss */
+  /* line 138, sass/partials/_site-navigation.scss */
   .nav-primary a:hover,
   .nav-primary .current-menu-item > a,
   .nav-primary .sub-menu .current-menu-item > a:hover,
@@ -1942,30 +1943,30 @@ Site Navigation
     border-color: #D40194;
     color: #D40194;
     text-shadow: none; }
-  /* line 145, sass/partials/_site-navigation.scss */
+  /* line 146, sass/partials/_site-navigation.scss */
   .nav-primary .sub-menu a,
   .nav-secondary .sub-menu a {
     color: #fff;
     border: 1px solid #fff; }
-    /* line 149, sass/partials/_site-navigation.scss */
+    /* line 150, sass/partials/_site-navigation.scss */
     .nav-primary .sub-menu a:hover,
     .nav-secondary .sub-menu a:hover {
       color: #D40194; }
-  /* line 154, sass/partials/_site-navigation.scss */
+  /* line 155, sass/partials/_site-navigation.scss */
   .nav-primary .sub-menu li,
   .nav-secondary .sub-menu li {
     border-right: none; }
 
 /* Primary Navigation
 --------------------------------------------- */
-/* line 162, sass/partials/_site-navigation.scss */
+/* line 163, sass/partials/_site-navigation.scss */
 .nav-primary {
   float: left;
   text-align: right; }
 
 /* Secondary Navigation
 --------------------------------------------- */
-/* line 170, sass/partials/_site-navigation.scss */
+/* line 171, sass/partials/_site-navigation.scss */
 .nav-secondary {
   float: right;
   text-align: left; }
