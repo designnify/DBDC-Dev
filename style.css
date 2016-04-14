@@ -1475,6 +1475,7 @@ Pages
   top: 18rem;
   width: 70%; }
 
+<<<<<<< HEAD
 /* Dance Crew
 --------------------------------------------- */
 /* line 5, sass/partials/_dance-crew.scss */
@@ -1486,21 +1487,131 @@ Pages
   -webkit-transform: rotate(-9deg);
   transform: rotate(-9deg); }
 /* line 17, sass/partials/_dance-crew.scss */
+=======
+<<<<<<< HEAD
+/* Dance Crew
+--------------------------------------------- */
+/* line 5, sass/partials/_dance-crew.scss */
+.show-swiss .envira-gallery-item:nth-child(1) {
+  -webkit-transform: rotate(12deg);
+  transform: rotate(12deg); }
+/* line 11, sass/partials/_dance-crew.scss */
+.show-swiss .envira-gallery-item:nth-child(2) {
+  -webkit-transform: rotate(-9deg);
+  transform: rotate(-9deg); }
+/* line 17, sass/partials/_dance-crew.scss */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+/* --- Common classes --- */
+/* line 408, sass/partials/_pages.scss */
+.title-deco {
+  border-bottom: 2px solid #D40194;
+  font-size: 40px;
+  padding-bottom: 5px; }
+
+/* line 419, sass/partials/_pages.scss */
+.widget-title
+.show-swiss .envira-gallery-item:nth-child(1) {
+  -webkit-transform: rotate(12deg);
+  transform: rotate(12deg); }
+/* line 425, sass/partials/_pages.scss */
+.widget-title
+.show-swiss .envira-gallery-item:nth-child(2) {
+  -webkit-transform: rotate(-9deg);
+  transform: rotate(-9deg); }
+/* line 431, sass/partials/_pages.scss */
+.widget-title
+=======
+=======
+>>>>>>> Stashed changes
+/* Dance Crew
+--------------------------------------------- */
+/* line 5, sass/partials/_dance-crew.scss */
+.show-swiss .envira-gallery-item:nth-child(1) {
+  -webkit-transform: rotate(12deg);
+  transform: rotate(12deg); }
+/* line 11, sass/partials/_dance-crew.scss */
+.show-swiss .envira-gallery-item:nth-child(2) {
+  -webkit-transform: rotate(-9deg);
+  transform: rotate(-9deg); }
+/* line 17, sass/partials/_dance-crew.scss */
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
 .show-swiss .envira-gallery-item:nth-child(3) {
   margin: auto;
   left: 0;
   right: 0; }
+<<<<<<< HEAD
 /* line 23, sass/partials/_dance-crew.scss */
+=======
+<<<<<<< HEAD
+/* line 23, sass/partials/_dance-crew.scss */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+/* line 437, sass/partials/_pages.scss */
+.widget-title
+=======
+/* line 23, sass/partials/_dance-crew.scss */
+>>>>>>> Stashed changes
+=======
+/* line 23, sass/partials/_dance-crew.scss */
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
 .show-swiss .envira-gallery-item img {
   border: 5px solid #D40194;
   display: block;
   margin: 0 auto;
   max-width: 100%; }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/Structural-wraps
 /* line 33, sass/partials/_dance-crew.scss */
 .dance-crew-widget .wrap {
   max-width: 1140px; }
 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+/* line 447, sass/partials/_pages.scss */
+.dance-crew-widget .wrap {
+  max-width: 1140px; }
+/* line 451, sass/partials/_pages.scss */
+.dance-crew-widget .novices-to-artists {
+  background-image: url(images/Novices-to-artists.png);
+  background-repeat: no-repeat;
+  background-size: 650px 771px;
+  height: 790px;
+  margin-left: -220px;
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  width: 1024px; }
+
+/* --- Catalog --- */
+/* line 466, sass/partials/_pages.scss */
+=======
+/* line 33, sass/partials/_dance-crew.scss */
+.dance-crew-widget .wrap {
+  max-width: 1140px; }
+
+=======
+/* line 33, sass/partials/_dance-crew.scss */
+.dance-crew-widget .wrap {
+  max-width: 1140px; }
+
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
 /* line 38, sass/partials/_dance-crew.scss */
 .novices-to-artists {
   background-image: url(images/Novices-to-artists.png);
@@ -1515,36 +1626,114 @@ Pages
 /* Services
 --------------------------------------------- */
 /* line 4, sass/partials/_services.scss */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
 .catalog h2 {
   background: #D40194;
   color: #fff;
   font-size: 25px;
   height: 80px;
   padding: 10px 5px; }
+<<<<<<< HEAD
 /* line 12, sass/partials/_services.scss */
+=======
+<<<<<<< HEAD
+/* line 12, sass/partials/_services.scss */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+/* line 474, sass/partials/_pages.scss */
+=======
+/* line 12, sass/partials/_services.scss */
+>>>>>>> Stashed changes
+=======
+/* line 12, sass/partials/_services.scss */
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
 .catalog .button {
   background: #D40194;
   border: 1px solid #D40194;
   border-radius: 50px;
   text-align: center;
   width: 100%; }
+<<<<<<< HEAD
   /* line 19, sass/partials/_services.scss */
+=======
+<<<<<<< HEAD
+  /* line 19, sass/partials/_services.scss */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  /* line 481, sass/partials/_pages.scss */
+=======
+  /* line 19, sass/partials/_services.scss */
+>>>>>>> Stashed changes
+=======
+  /* line 19, sass/partials/_services.scss */
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   .catalog .button:hover {
     background: #fff;
     color: #D40194; }
 
+<<<<<<< HEAD
 /* Services
 --------------------------------------------- */
 /* line 4, sass/partials/_dances.scss */
 .column ul {
   margin-left: 18px !important; }
 /* line 8, sass/partials/_dances.scss */
+=======
+<<<<<<< HEAD
+/* Services
+--------------------------------------------- */
+/* line 4, sass/partials/_dances.scss */
+.column ul {
+  margin-left: 18px !important; }
+/* line 8, sass/partials/_dances.scss */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+/* --- Dances --- */
+/* line 490, sass/partials/_pages.scss */
+.column ul {
+  margin-left: 18px !important; }
+/* line 494, sass/partials/_pages.scss */
+=======
+=======
+>>>>>>> Stashed changes
+/* Services
+--------------------------------------------- */
+/* line 4, sass/partials/_dances.scss */
+.column ul {
+  margin-left: 18px !important; }
+/* line 8, sass/partials/_dances.scss */
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
 .column h4 {
   background: #D40194;
   border-left: 8px solid #890060;
   color: #fff;
   padding: 5px; }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/Structural-wraps
 /* line 16, sass/partials/_dances.scss */
 .workout {
   background-color: #54027D; }
@@ -1552,6 +1741,7 @@ Pages
 /* line 20, sass/partials/_dances.scss */
 .dance {
   background-color: #5B04E2; }
+<<<<<<< HEAD
 
 /* line 25, sass/partials/_dances.scss */
 .single-faq.expand-faq {
@@ -1608,6 +1798,308 @@ Pages
 .prices th, .prices td {
   padding: 3px 8px; }
 /* line 19, sass/partials/_prices.scss */
+=======
+
+/* line 25, sass/partials/_dances.scss */
+.single-faq.expand-faq {
+  cursor: pointer; }
+  /* line 28, sass/partials/_dances.scss */
+  .single-faq.expand-faq h3 {
+    color: #fff;
+    margin: 0;
+    padding: 5px; }
+  /* line 34, sass/partials/_dances.scss */
+  .single-faq.expand-faq h3:before {
+    bottom: -7px;
+    color: #fff;
+    content: "\f132";
+    display: inline-block;
+    font: normal 30px/1 'dashicons';
+    position: relative; }
+  /* line 43, sass/partials/_dances.scss */
+  .single-faq.expand-faq #b-burn,
+  .single-faq.expand-faq #stretch-relax,
+  .single-faq.expand-faq #hatha-yoga,
+  .single-faq.expand-faq #kahvakuula {
+    background-color: #D40194;
+    width: 50%; }
+  /* line 51, sass/partials/_dances.scss */
+  .single-faq.expand-faq #bollywood-elegance,
+  .single-faq.expand-faq #bollywood-stardom,
+  .single-faq.expand-faq #bellywood,
+  .single-faq.expand-faq #indian-contemporary,
+  .single-faq.expand-faq #b-star-7-11-vuotiaat,
+  .single-faq.expand-faq #b-lil-star-4-7-vuotiaat,
+  .single-faq.expand-faq #b-teens,
+  .single-faq.expand-faq #bollywood-for-students,
+  .single-faq.expand-faq #puistobollywood,
+  .single-faq.expand-faq #bollywood-basics,
+  .single-faq.expand-faq #just-dance {
+    background-color: #890060;
+    width: 50%; }
+  /* line 66, sass/partials/_dances.scss */
+  .single-faq.expand-faq .faq-answer {
+    margin-top: 10px; }
+
+/* Prices
+--------------------------------------------- */
+/* line 5, sass/partials/_prices.scss */
+.prices thead {
+  background: #D40194;
+  color: #fff; }
+/* line 10, sass/partials/_prices.scss */
+.prices tbody {
+  background: #890060;
+  color: #fff; }
+/* line 15, sass/partials/_prices.scss */
+.prices th, .prices td {
+  padding: 3px 8px; }
+/* line 19, sass/partials/_prices.scss */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+/* line 502, sass/partials/_pages.scss */
+h3.accordion-header {
+  padding: 0.3rem 1.5rem; }
+
+/* line 509, sass/partials/_pages.scss */
+h3.accordion-header.accordion-default-colors:hover {
+  color: #fff;
+  text-decoration: underline; }
+
+/* line 517, sass/partials/_pages.scss */
+.accordion-content img {
+  border: 7px solid #D40194; }
+/* line 521, sass/partials/_pages.scss */
+.accordion-content li {
+  margin-left: 0; }
+
+/* line 526, sass/partials/_pages.scss */
+#accordion-container {
+  width: 100%; }
+
+/* line 529, sass/partials/_pages.scss */
+#accordion-container .accordion-header,
+#accordion-container accordion-content {
+  box-sizing: border-box; }
+
+/* line 535, sass/partials/_pages.scss */
+#accordion-container .accordion-header {
+  background-color: #FF3600;
+  color: #fff;
+  cursor: pointer;
+  padding: 2px;
+  font-family: 'Oswald', sans-serif; }
+
+/* line 542, sass/partials/_pages.scss */
+#accordion-container .accordion-content {
+  font-family: 'Lato', sans-serif; }
+
+/* line 545, sass/partials/_pages.scss */
+.accordion-active + .accordion-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; }
+
+/* --- Prices --- */
+/* line 554, sass/partials/_pages.scss */
+.prices thead {
+  background: #D40194;
+  color: #fff; }
+/* line 559, sass/partials/_pages.scss */
+.prices tbody {
+  background: #890060;
+  color: #fff; }
+/* line 564, sass/partials/_pages.scss */
+.prices th, .prices td {
+  padding: 3px 8px; }
+/* line 568, sass/partials/_pages.scss */
+=======
+/*
+h3.accordion-header {
+	padding: 0.3rem 1.5rem;
+}
+
+h3.accordion-header.accordion-default-colors {
+// 	color: #fff;
+	
+	&:hover {
+		color: #fff;
+		text-decoration: underline;
+	}
+}
+*/
+/*
+.accordion-content {
+	
+	img {
+		border: 7px solid $color-purple;
+	}
+	
+	li {
+		margin-left: 0;
+	}
+}
+
+#accordion-container {
+	width: 100%;
+}
+
+#accordion-container .accordion-header,
+#accordion-container accordion-content {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#accordion-container .accordion-header {
+	border: 1px solid #ececec;
+	color: #fff;
+	cursor: pointer;
+	padding: 0.3rem 1.5rem;
+}
+
+#accordion-container .accordion-content {
+  	font-family: 'Lato', sans-serif;
+}
+
+.accordion-active + .accordion-content {
+  	border-left: 1px solid #ddd;
+  	border-right: 1px solid #ddd;
+  	border-bottom: 1px solid #ddd;
+}
+*/
+/* line 72, sass/partials/_dances.scss */
+.workout {
+  background-color: #54027D; }
+
+/* line 76, sass/partials/_dances.scss */
+.dance {
+  background-color: #5B04E2; }
+
+=======
+/*
+h3.accordion-header {
+	padding: 0.3rem 1.5rem;
+}
+
+h3.accordion-header.accordion-default-colors {
+// 	color: #fff;
+	
+	&:hover {
+		color: #fff;
+		text-decoration: underline;
+	}
+}
+*/
+/*
+.accordion-content {
+	
+	img {
+		border: 7px solid $color-purple;
+	}
+	
+	li {
+		margin-left: 0;
+	}
+}
+
+#accordion-container {
+	width: 100%;
+}
+
+#accordion-container .accordion-header,
+#accordion-container accordion-content {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#accordion-container .accordion-header {
+	border: 1px solid #ececec;
+	color: #fff;
+	cursor: pointer;
+	padding: 0.3rem 1.5rem;
+}
+
+#accordion-container .accordion-content {
+  	font-family: 'Lato', sans-serif;
+}
+
+.accordion-active + .accordion-content {
+  	border-left: 1px solid #ddd;
+  	border-right: 1px solid #ddd;
+  	border-bottom: 1px solid #ddd;
+}
+*/
+/* line 72, sass/partials/_dances.scss */
+.workout {
+  background-color: #54027D; }
+
+/* line 76, sass/partials/_dances.scss */
+.dance {
+  background-color: #5B04E2; }
+
+>>>>>>> Stashed changes
+/* line 81, sass/partials/_dances.scss */
+.single-faq.expand-faq {
+  cursor: pointer; }
+  /* line 84, sass/partials/_dances.scss */
+  .single-faq.expand-faq h3 {
+    color: #fff;
+    margin: 0;
+    padding: 5px; }
+  /* line 90, sass/partials/_dances.scss */
+  .single-faq.expand-faq h3:before {
+    bottom: -7px;
+    color: #fff;
+    content: "\f132";
+    display: inline-block;
+    font: normal 30px/1 'dashicons';
+    position: relative; }
+  /* line 99, sass/partials/_dances.scss */
+  .single-faq.expand-faq #b-burn,
+  .single-faq.expand-faq #stretch-relax,
+  .single-faq.expand-faq #hatha-yoga,
+  .single-faq.expand-faq #kahvakuula {
+    background-color: #D40194; }
+  /* line 106, sass/partials/_dances.scss */
+  .single-faq.expand-faq #bollywood-elegance,
+  .single-faq.expand-faq #bollywood-stardom,
+  .single-faq.expand-faq #bellywood,
+  .single-faq.expand-faq #indian-contemporary,
+  .single-faq.expand-faq #b-star-7-11-vuotiaat,
+  .single-faq.expand-faq #b-lil-star-4-7-vuotiaat,
+  .single-faq.expand-faq #b-teens,
+  .single-faq.expand-faq #bollywood-for-students,
+  .single-faq.expand-faq #puistobollywood,
+  .single-faq.expand-faq #bollywood-basics,
+  .single-faq.expand-faq #just-dance {
+    background-color: #890060; }
+  /* line 120, sass/partials/_dances.scss */
+  .single-faq.expand-faq .faq-answer {
+    margin-top: 10px; }
+
+/* Prices
+--------------------------------------------- */
+/* line 5, sass/partials/_prices.scss */
+.prices thead {
+  background: #D40194;
+  color: #fff; }
+/* line 10, sass/partials/_prices.scss */
+.prices tbody {
+  background: #890060;
+  color: #fff; }
+/* line 15, sass/partials/_prices.scss */
+.prices th, .prices td {
+  padding: 3px 8px; }
+/* line 19, sass/partials/_prices.scss */
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
 .prices th:nth-child(2),
 .prices th:nth-child(3),
 .prices td:nth-child(2),
@@ -1618,18 +2110,37 @@ Pages
   border-top: none; }
 
 /* --- Teachers --- */
+<<<<<<< HEAD
 /* line 2, sass/partials/_teachers.scss */
+=======
+<<<<<<< HEAD
+/* line 2, sass/partials/_teachers.scss */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+/* line 578, sass/partials/_pages.scss */
+=======
+/* line 2, sass/partials/_teachers.scss */
+>>>>>>> Stashed changes
+=======
+/* line 2, sass/partials/_teachers.scss */
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
 #danny,
 #kati,
 #ekaterina {
   border-bottom: 1px solid rgba(212, 1, 148, 0.3); }
 
+<<<<<<< Updated upstream
+=======
 /* --- Terms & Condition --- */
 /* line 9, sass/partials/_teachers.scss */
 .title-deco {
   border-bottom: 2px solid #D40194;
   padding-bottom: 5px; }
 
+>>>>>>> Stashed changes
 /*
 Plugins
 ---------------------------------------------------------------------------------------------------- */
@@ -2517,11 +3028,37 @@ Media Queries
     margin: 0 auto;
     max-width: 550px; }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  /* line 276, sass/partials/_media-queries.scss */
+  .dance-crew-widget .novices-to-artists {
+    display: none; }
+
+  /* line 283, sass/partials/_media-queries.scss */
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   /* line 275, sass/partials/_media-queries.scss */
   .novices-to-artists {
     display: none; }
 
   /* line 281, sass/partials/_media-queries.scss */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   .catalog h2 {
     background: none;
     border-bottom: 2px solid #D40194;
@@ -2530,32 +3067,126 @@ Media Queries
 
   	/* Responsive Navigation
   --------------------------------------------- */
+<<<<<<< HEAD
   /* line 292, sass/partials/_media-queries.scss */
+=======
+<<<<<<< HEAD
+  /* line 292, sass/partials/_media-queries.scss */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  /* line 294, sass/partials/_media-queries.scss */
+=======
+  /* line 292, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
+=======
+  /* line 292, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   .responsive-menu-icon,
   .responsive-menu .menu-item-has-children {
     cursor: pointer; }
 
+<<<<<<< HEAD
   /* line 297, sass/partials/_media-queries.scss */
+=======
+<<<<<<< HEAD
+  /* line 297, sass/partials/_media-queries.scss */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  /* line 299, sass/partials/_media-queries.scss */
+=======
+  /* line 297, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
+=======
+  /* line 297, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   .responsive-menu .menu-item,
   .responsive-menu-icon {
     display: block; }
 
+<<<<<<< HEAD
   /* line 302, sass/partials/_media-queries.scss */
+=======
+<<<<<<< HEAD
+  /* line 302, sass/partials/_media-queries.scss */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  /* line 304, sass/partials/_media-queries.scss */
+=======
+  /* line 302, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
+=======
+  /* line 302, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   .responsive-menu,
   .responsive-menu > .menu-item > .sub-menu {
     display: none; }
 
+<<<<<<< HEAD
   /* line 307, sass/partials/_media-queries.scss */
+=======
+<<<<<<< HEAD
+  /* line 307, sass/partials/_media-queries.scss */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  /* line 309, sass/partials/_media-queries.scss */
+=======
+  /* line 307, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
+=======
+  /* line 307, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   .responsive-menu > .menu-item > .sub-menu {
     background: #890060;
     margin: auto;
     width: 100%; }
 
+<<<<<<< HEAD
   /* line 313, sass/partials/_media-queries.scss */
   .responsive-menu-icon {
     text-align: center; }
 
   /* line 317, sass/partials/_media-queries.scss */
+=======
+<<<<<<< HEAD
+  /* line 313, sass/partials/_media-queries.scss */
+  .responsive-menu-icon {
+    text-align: center; }
+
+  /* line 317, sass/partials/_media-queries.scss */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  /* line 315, sass/partials/_media-queries.scss */
+  .responsive-menu-icon {
+    text-align: center; }
+
+  /* line 319, sass/partials/_media-queries.scss */
+=======
+=======
+>>>>>>> Stashed changes
+  /* line 313, sass/partials/_media-queries.scss */
+  .responsive-menu-icon {
+    text-align: center; }
+
+  /* line 317, sass/partials/_media-queries.scss */
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   .responsive-menu-icon::before {
     color: #fff;
     content: "\f333";
@@ -2564,7 +3195,23 @@ Media Queries
     margin: 0 auto;
     padding: 4px; }
 
+<<<<<<< HEAD
   /* line 326, sass/partials/_media-queries.scss */
+=======
+<<<<<<< HEAD
+  /* line 326, sass/partials/_media-queries.scss */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  /* line 328, sass/partials/_media-queries.scss */
+=======
+  /* line 326, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
+=======
+  /* line 326, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   .responsive-menu > .menu-item-has-children:before {
     clear: both;
     color: #fff;
@@ -2578,11 +3225,41 @@ Media Queries
     text-align: right;
     z-index: 9999; }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
   /* line 340, sass/partials/_media-queries.scss */
   .responsive-menu .menu-open.menu-item-has-children:before {
     content: "\f343"; }
 
   /* line 344, sass/partials/_media-queries.scss */
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  /* line 342, sass/partials/_media-queries.scss */
+  .responsive-menu .menu-open.menu-item-has-children:before {
+    content: "\f343"; }
+
+  /* line 346, sass/partials/_media-queries.scss */
+=======
+>>>>>>> origin/Structural-wraps
+  /* line 340, sass/partials/_media-queries.scss */
+  .responsive-menu .menu-open.menu-item-has-children:before {
+    content: "\f343"; }
+
+  /* line 344, sass/partials/_media-queries.scss */
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+=======
+  /* line 340, sass/partials/_media-queries.scss */
+  .responsive-menu .menu-open.menu-item-has-children:before {
+    content: "\f343"; }
+
+  /* line 344, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   .nav-primary a:hover,
   .nav-primary .current-menu-item > a,
   .nav-primary .sub-menu a:hover,
@@ -2592,6 +3269,27 @@ Media Queries
   .nav-secondary .sub-menu .current-menu-item > a:hover {
     color: #fff; }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  /* line 358, sass/partials/_media-queries.scss */
+  .genesis-nav-menu .sub-menu {
+    position: relative; }
+    /* line 361, sass/partials/_media-queries.scss */
+    .genesis-nav-menu .sub-menu a {
+      border: none;
+      width: auto; }
+  /* line 367, sass/partials/_media-queries.scss */
+  .genesis-nav-menu .menu-item {
+    text-align: center; } }
+@media only screen and (max-width: 414px) {
+  /* line 380, sass/partials/_media-queries.scss */
+=======
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   /* line 356, sass/partials/_media-queries.scss */
   .genesis-nav-menu .sub-menu {
     position: relative; }
@@ -2599,15 +3297,60 @@ Media Queries
     .genesis-nav-menu .sub-menu a {
       border: none;
       width: auto; }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+  /* line 356, sass/partials/_media-queries.scss */
+  .genesis-nav-menu .sub-menu {
+    position: relative; }
+    /* line 359, sass/partials/_media-queries.scss */
+    .genesis-nav-menu .sub-menu a {
+      border: none;
+      width: auto; }
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   /* line 365, sass/partials/_media-queries.scss */
   .genesis-nav-menu .menu-item {
     text-align: center; } }
 @media only screen and (max-width: 414px) {
   /* line 378, sass/partials/_media-queries.scss */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   .homepage-news .featuredpost .entry {
     margin-bottom: 10px;
     width: 100%; }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  /* line 388, sass/partials/_media-queries.scss */
+  .homepage-news .button {
+    font-size: 1.5em; }
+
+  /* line 392, sass/partials/_media-queries.scss */
+  .homepage-map .widget-title {
+    font-size: 25px; }
+
+  /* line 396, sass/partials/_media-queries.scss */
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   /* line 386, sass/partials/_media-queries.scss */
   .homepage-news .button {
     font-size: 1.5em; }
@@ -2617,6 +3360,16 @@ Media Queries
     font-size: 25px; }
 
   /* line 394, sass/partials/_media-queries.scss */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
   .homepage-map .widget-title:before,
   .homepage-map .widget-title:after {
     padding-bottom: 8px; } }

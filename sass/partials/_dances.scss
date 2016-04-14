@@ -13,6 +13,68 @@
 	}
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+/*
+h3.accordion-header {
+	padding: 0.3rem 1.5rem;
+}
+
+h3.accordion-header.accordion-default-colors {
+// 	color: #fff;
+	
+	&:hover {
+		color: #fff;
+		text-decoration: underline;
+	}
+}
+*/
+
+/*
+.accordion-content {
+	
+	img {
+		border: 7px solid $color-purple;
+	}
+	
+	li {
+		margin-left: 0;
+	}
+}
+
+#accordion-container {
+	width: 100%;
+}
+
+#accordion-container .accordion-header,
+#accordion-container accordion-content {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#accordion-container .accordion-header {
+	border: 1px solid #ececec;
+	color: #fff;
+	cursor: pointer;
+	padding: 0.3rem 1.5rem;
+}
+
+#accordion-container .accordion-content {
+  	font-family: 'Lato', sans-serif;
+}
+
+.accordion-active + .accordion-content {
+  	border-left: 1px solid #ddd;
+  	border-right: 1px solid #ddd;
+  	border-bottom: 1px solid #ddd;
+}
+*/
+
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
 .workout {
 	background-color: $color-workout;
 }
@@ -45,7 +107,14 @@
 	#hatha-yoga,
 	#kahvakuula {
 		background-color: $color-purple;
+<<<<<<< HEAD
 		width: 50%;
+=======
+<<<<<<< HEAD
+		width: 45%;
+=======
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
 	}
 	
 	#bollywood-elegance,
@@ -60,7 +129,14 @@
 	#bollywood-basics,
 	#just-dance {
 		background-color: $color-purple-dark;
+<<<<<<< HEAD
 		width: 50%;
+=======
+<<<<<<< HEAD
+		width: 50%;
+=======
+>>>>>>> origin/Structural-wraps
+>>>>>>> origin/Structural-wraps
 	}
 	
 	.faq-answer {
