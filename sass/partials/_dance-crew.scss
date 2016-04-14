@@ -1,0 +1,48 @@
+/* Dance Crew
+--------------------------------------------- */
+.show-swiss {
+	
+	.envira-gallery-item:nth-child(1) {
+		-ms-transform: rotate(12deg);
+		-webkit-transform: rotate(12deg);
+		transform: rotate(12deg);
+	}
+	
+	.envira-gallery-item:nth-child(2) {
+		-ms-transform: rotate(-9deg);
+		-webkit-transform: rotate(-9deg);
+		transform: rotate(-9deg);
+	}
+	
+	.envira-gallery-item:nth-child(3) {
+		margin: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.envira-gallery-item img {
+		border: 5px solid $color-purple;
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+}
+
+.dance-crew-widget {
+	
+	.wrap {
+		max-width: 1140px;
+	}
+}
+
+.novices-to-artists {
+		background-image: url(images/Novices-to-artists.png);
+		background-repeat: no-repeat;
+		background-size: 650px 771px;
+		height: 790px;
+		margin-left: -220px;
+		-ms-transform: rotate(25deg);
+		-webkit-transform: rotate(25deg);
+		transform: rotate(25deg);
+		width: 1024px;
+}
