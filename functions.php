@@ -15,7 +15,7 @@ add_action( 'wp_enqueue_scripts', 'dbdc_scripts' );
 function dbdc_scripts() {
 
 	//* Add Google Fonts
-	wp_register_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,400,700 | Oswald:400,700,300 | Raleway:400,500', array(), CHILD_THEME_VERSION );
+	wp_register_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:400,700,300 |Raleway:400,500', array(), CHILD_THEME_VERSION );
 	wp_enqueue_style( 'google-fonts' );
 	
 	//* Add compiled JS
@@ -202,13 +202,16 @@ genesis_register_sidebar( array(
 	'name'          => __( 'Homepage Social Icons', 'dbdc' ),
 	'description'   => __( 'This is the homepage social icons section', 'dbdc' ),
 ));
+/*
 genesis_register_sidebar( array(
 	'id'            => 'dance-crew-widget',
 	'name'          => __( 'Dance Crew Widget', 'dbdc' ),
 	'description'   => __( 'This is the Dance Crew Widget for the Dance Crew Page', 'dbdc' ),
 ));
+*/
 
 //* Hooks the widgets to corect location in respective page
+/*
 add_action( 'genesis_after_content_sidebar_wrap', 'dbdc_dance_crew_widget_genesis' );
 function dbdc_dance_crew_widget_genesis() {
 	if ( is_page('7') )
@@ -217,3 +220,4 @@ function dbdc_dance_crew_widget_genesis() {
 		'after'		=> '</div></div>',
 		));
 }
+*/

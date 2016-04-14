@@ -1,0 +1,124 @@
+/* Services
+--------------------------------------------- */
+.column {
+	ul {
+		margin-left: 18px !important;
+	}
+	
+	h4 {
+		background: $color-purple;
+		border-left: 8px solid $color-purple-dark;
+		color: #fff;
+		padding: 5px;
+	}
+}
+
+/*
+h3.accordion-header {
+	padding: 0.3rem 1.5rem;
+}
+
+h3.accordion-header.accordion-default-colors {
+// 	color: #fff;
+	
+	&:hover {
+		color: #fff;
+		text-decoration: underline;
+	}
+}
+*/
+
+/*
+.accordion-content {
+	
+	img {
+		border: 7px solid $color-purple;
+	}
+	
+	li {
+		margin-left: 0;
+	}
+}
+
+#accordion-container {
+	width: 100%;
+}
+
+#accordion-container .accordion-header,
+#accordion-container accordion-content {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#accordion-container .accordion-header {
+	border: 1px solid #ececec;
+	color: #fff;
+	cursor: pointer;
+	padding: 0.3rem 1.5rem;
+}
+
+#accordion-container .accordion-content {
+  	font-family: 'Lato', sans-serif;
+}
+
+.accordion-active + .accordion-content {
+  	border-left: 1px solid #ddd;
+  	border-right: 1px solid #ddd;
+  	border-bottom: 1px solid #ddd;
+}
+*/
+
+.workout {
+	background-color: $color-workout;
+}
+
+.dance {
+	background-color: $color-dance;
+}
+
+
+.single-faq.expand-faq {
+	cursor: pointer;
+	
+	h3 {
+		color: #fff;
+		margin: 0;
+		padding: 5px;
+	}
+	
+	h3:before {
+		bottom: -7px;
+		color: #fff;
+		content: "\f132";
+		display: inline-block;
+		font: normal 30px/1 'dashicons';
+		position: relative;
+	}
+	
+	#b-burn,
+	#stretch-relax,
+	#hatha-yoga,
+	#kahvakuula {
+		background-color: $color-purple;
+	}
+	
+	#bollywood-elegance,
+	#bollywood-stardom,
+	#bellywood,
+	#indian-contemporary,
+	#b-star-7-11-vuotiaat,
+	#b-lil-star-4-7-vuotiaat,
+	#b-teens,
+	#bollywood-for-students,
+	#puistobollywood,
+	#bollywood-basics,
+	#just-dance {
+		background-color: $color-purple-dark;
+	}
+	
+	.faq-answer {
+		margin-top: 10px;
+	}
+}
+

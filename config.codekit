@@ -368,6 +368,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/partials\/_dance-crew.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_dance-crew.scss",
+		"outputAbbreviatedPath": "\/sass\/_dance-crew.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/partials\/_dances.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_dances.scss",
+		"outputAbbreviatedPath": "\/sass\/_dances.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/partials\/_defaults.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -441,6 +473,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/partials\/_grid.scss",
 		"outputAbbreviatedPath": "\/sass\/_grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/partials\/_home-page.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_home-page.scss",
+		"outputAbbreviatedPath": "\/sass\/_home-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -528,6 +576,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/partials\/_prices.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_prices.scss",
+		"outputAbbreviatedPath": "\/sass\/_prices.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/partials\/_reset.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -537,6 +601,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/partials\/_reset.scss",
 		"outputAbbreviatedPath": "\/sass\/_reset.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/partials\/_services.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_services.scss",
+		"outputAbbreviatedPath": "\/sass\/_services.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -624,6 +704,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/partials\/_teachers.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_teachers.scss",
+		"outputAbbreviatedPath": "\/sass\/_teachers.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/partials\/_variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -700,18 +796,27 @@
 	"\/js\/project.js": [
 		{
 			"followForSyntaxChecking": 1,
+<<<<<<< Updated upstream
 			"linkedFileAbbreviatedPath": "\/js\/partials\/accordion.js",
+=======
+			"linkedFileAbbreviatedPath": "\/js\/partials\/responsive-menu.js",
+>>>>>>> Stashed changes
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
+<<<<<<< Updated upstream
 			"linkedFileAbbreviatedPath": "\/js\/partials\/backstretch-init.js",
+=======
+			"linkedFileAbbreviatedPath": "\/js\/partials\/scrollto-init.js",
+>>>>>>> Stashed changes
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
+<<<<<<< Updated upstream
 			"linkedFileAbbreviatedPath": "\/js\/partials\/backstretch-set.js",
 			"position": 2,
 			"type": 0
@@ -726,11 +831,16 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/js\/partials\/jquery.localScroll.min.js",
 			"position": 4,
+=======
+			"linkedFileAbbreviatedPath": "\/js\/partials\/jquery.localScroll.min.js",
+			"position": 2,
+>>>>>>> Stashed changes
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/js\/partials\/jquery.scrollTo.min.js",
+<<<<<<< Updated upstream
 			"position": 5,
 			"type": 0
 			},
@@ -744,12 +854,19 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/js\/partials\/scrollto-init.js",
 			"position": 7,
+=======
+			"position": 3,
+>>>>>>> Stashed changes
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/js\/partials\/singular-scripts.js",
+<<<<<<< Updated upstream
 			"position": 8,
+=======
+			"position": 4,
+>>>>>>> Stashed changes
 			"type": 0
 			}
 		]

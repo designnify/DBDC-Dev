@@ -39,8 +39,11 @@
 		- Featured Content
 	- Pages
 		- Home Page
-		- Catalog
+		- Dance Crew
+		- Services
 		- Dances
+		- Prices
+		- Teachers
 	- Plugins
 		- Genesis eNews Extended
 		- Genesis Latest Tweets
@@ -689,7 +692,7 @@ th {
 
   /* line 79, sass/partials/_grid.scss */
   .one-half.column {
-    width: 48%; }
+    width: 47%; }
 
   /* Offsets */
   /* line 82, sass/partials/_grid.scss */
@@ -1144,12 +1147,12 @@ Pages
 /* Home Page
 --------------------------------------------- */
 /* --- Home Hero Video --- */
-/* line 5, sass/partials/_pages.scss */
+/* line 5, sass/partials/_home-page.scss */
 .home .site-inner {
   max-width: none;
   padding-top: 0; }
 
-/* line 10, sass/partials/_pages.scss */
+/* line 10, sass/partials/_home-page.scss */
 .hero-video {
   background: transparent;
   display: table;
@@ -1157,11 +1160,11 @@ Pages
   text-align: center;
   width: 100%;
   text-shadow: 2px 2px 2px #969696; }
-  /* line 18, sass/partials/_pages.scss */
+  /* line 18, sass/partials/_home-page.scss */
   .hero-video .widget_black_studio_tinymce {
     display: table-cell;
     vertical-align: bottom; }
-  /* line 23, sass/partials/_pages.scss */
+  /* line 23, sass/partials/_home-page.scss */
   .hero-video .button {
     background: transparent;
     border: 2px solid #fff;
@@ -1169,16 +1172,16 @@ Pages
     font-family: Oswald, sans-serif;
     font-size: 30px;
     padding: 10px 40px; }
-  /* line 32, sass/partials/_pages.scss */
+  /* line 32, sass/partials/_home-page.scss */
   .hero-video .button:hover {
     background: #D40194;
     border: none;
     color: #fff;
     text-shadow: none; }
-  /* line 39, sass/partials/_pages.scss */
+  /* line 39, sass/partials/_home-page.scss */
   .hero-video p {
     margin: 0 0 15px; }
-  /* line 45, sass/partials/_pages.scss */
+  /* line 45, sass/partials/_home-page.scss */
   .hero-video .arrow-down a {
     background: black;
     background: rgba(0, 0, 0, 0.6);
@@ -1187,7 +1190,7 @@ Pages
     line-height: 1;
     padding: 13px 10px 6px;
     text-shadow: none; }
-    /* line 54, sass/partials/_pages.scss */
+    /* line 54, sass/partials/_home-page.scss */
     .hero-video .arrow-down a:before {
       -webkit-font-smoothing: antialiased;
       color: #fff;
@@ -1195,7 +1198,7 @@ Pages
       font: normal 25px/1 'dashicons';
       height: 40px;
       width: 40px; }
-  /* line 65, sass/partials/_pages.scss */
+  /* line 65, sass/partials/_home-page.scss */
   .hero-video .dashicons {
     background: white;
     background: rgba(255, 255, 255, 0.75);
@@ -1205,14 +1208,14 @@ Pages
     padding: 15px;
     text-shadow: none;
     width: auto; }
-  /* line 76, sass/partials/_pages.scss */
+  /* line 76, sass/partials/_home-page.scss */
   .hero-video .dashicons:hover {
     background: black;
     background: rgba(0, 0, 0, 0.75);
     color: #fff; }
 
 /* --- Home Widgets Common Attributes --- */
-/* line 90, sass/partials/_pages.scss */
+/* line 90, sass/partials/_home-page.scss */
 .homepage-news .widget-title,
 .homepage-map .widget-title,
 .homepage-newsletter .widget-title,
@@ -1220,17 +1223,17 @@ Pages
   font-family: Raleway, sans-serif;
   font-size: 40px; }
 
-/* line 99, sass/partials/_pages.scss */
+/* line 99, sass/partials/_home-page.scss */
 .homepage-news .widget-title,
 .homepage-map .widget-title {
   color: #D40194; }
 
-/* line 107, sass/partials/_pages.scss */
+/* line 107, sass/partials/_home-page.scss */
 .homepage-newsletter .widget-title,
 .homepage-social-icons .widget-title {
   color: #fff; }
 
-/* line 116, sass/partials/_pages.scss */
+/* line 116, sass/partials/_home-page.scss */
 .homepage-map .widget-title,
 .homepage-map p,
 .homepage-newsletter .widget-title,
@@ -1239,43 +1242,43 @@ Pages
 .homepage-social-icons p {
   text-align: center; }
 
-/* line 124, sass/partials/_pages.scss */
+/* line 124, sass/partials/_home-page.scss */
 .homepage-map .widget-title {
   padding-top: 20px; }
 
 /* --- Home Page News & Google Calendar --- */
-/* line 131, sass/partials/_pages.scss */
+/* line 131, sass/partials/_home-page.scss */
 .homepage-news {
   background: #fff;
   padding: 25px 0 0; }
-  /* line 135, sass/partials/_pages.scss */
+  /* line 135, sass/partials/_home-page.scss */
   .homepage-news .widget-title {
     border-bottom: 2px solid #D40194;
     text-align: left; }
-  /* line 140, sass/partials/_pages.scss */
+  /* line 140, sass/partials/_home-page.scss */
   .homepage-news article {
     display: inline-block;
     width: 50%; }
-  /* line 145, sass/partials/_pages.scss */
+  /* line 145, sass/partials/_home-page.scss */
   .homepage-news .entry {
     border-bottom: none;
     margin-bottom: 0; }
-  /* line 150, sass/partials/_pages.scss */
+  /* line 150, sass/partials/_home-page.scss */
   .homepage-news .simcal-default-calendar-list {
     padding: 0; }
-    /* line 152, sass/partials/_pages.scss */
+    /* line 152, sass/partials/_home-page.scss */
     .homepage-news .simcal-default-calendar-list .simcal-calendar-head {
       padding-bottom: 0; }
-  /* line 157, sass/partials/_pages.scss */
+  /* line 157, sass/partials/_home-page.scss */
   .homepage-news .simcal-events-list-container {
     margin: 5px 0; }
-  /* line 161, sass/partials/_pages.scss */
+  /* line 161, sass/partials/_home-page.scss */
   .homepage-news .simcal-default-calendar-list ul.simcal-events li.simcal-event {
     margin-bottom: 0; }
-  /* line 165, sass/partials/_pages.scss */
+  /* line 165, sass/partials/_home-page.scss */
   .homepage-news .simcal-default-calendar-list .simcal-event-details p {
     margin: 0 0 .1em; }
-  /* line 169, sass/partials/_pages.scss */
+  /* line 169, sass/partials/_home-page.scss */
   .homepage-news .button {
     background: #D40194;
     border: 1px solid #D40194;
@@ -1287,24 +1290,24 @@ Pages
     text-transform: none;
     padding: 2px 0;
     width: 100%; }
-  /* line 182, sass/partials/_pages.scss */
+  /* line 182, sass/partials/_home-page.scss */
   .homepage-news .button:hover {
     background: #fff;
     color: #D40194; }
-  /* line 187, sass/partials/_pages.scss */
+  /* line 187, sass/partials/_home-page.scss */
   .homepage-news .panel-grid-cell .so-panel {
     margin-bottom: 0; }
 
 /*-----------------*/
 /***** Apollo  *****/
 /*-----------------*/
-/* line 197, sass/partials/_pages.scss */
+/* line 197, sass/partials/_home-page.scss */
 .homepage-news .wrap {
   max-width: 1140px; }
-/* line 201, sass/partials/_pages.scss */
+/* line 201, sass/partials/_home-page.scss */
 .homepage-news .featuredpost {
   padding: 0; }
-  /* line 204, sass/partials/_pages.scss */
+  /* line 204, sass/partials/_home-page.scss */
   .homepage-news .featuredpost img.entry-image {
     left: 0;
     position: absolute;
@@ -1315,7 +1318,7 @@ Pages
     -webkit-transform: scale3d(1.05, 1.05, 1);
     transform: scale3d(1.05, 1.05, 1);
     margin: 0; }
-  /* line 214, sass/partials/_pages.scss */
+  /* line 214, sass/partials/_home-page.scss */
   .homepage-news .featuredpost img.entry-image:hover {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
     filter: alpha(opacity=10);
@@ -1324,7 +1327,7 @@ Pages
     opacity: 0.1;
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1); }
-  /* line 224, sass/partials/_pages.scss */
+  /* line 224, sass/partials/_home-page.scss */
   .homepage-news .featuredpost .entry {
     background-color: #fff;
     color: #fff;
@@ -1334,15 +1337,15 @@ Pages
     border-bottom: none;
     overflow: hidden;
     display: table; }
-  /* line 235, sass/partials/_pages.scss */
+  /* line 235, sass/partials/_home-page.scss */
   .homepage-news .featuredpost .entry-title a {
     color: #fff; }
-  /* line 239, sass/partials/_pages.scss */
+  /* line 239, sass/partials/_home-page.scss */
   .homepage-news .featuredpost article ~ ul,
   .homepage-news .featuredpost .more-from-category {
     margin-bottom: 40px;
     text-align: center; }
-  /* line 245, sass/partials/_pages.scss */
+  /* line 245, sass/partials/_home-page.scss */
   .homepage-news .featuredpost .entry {
     border-radius: 0;
     margin: 0;
@@ -1350,28 +1353,28 @@ Pages
     position: relative;
     float: left;
     width: 50%; }
-  /* line 254, sass/partials/_pages.scss */
+  /* line 254, sass/partials/_home-page.scss */
   .homepage-news .featuredpost .entry-image {
     display: block;
     margin-bottom: 0; }
-  /* line 259, sass/partials/_pages.scss */
+  /* line 259, sass/partials/_home-page.scss */
   .homepage-news .featuredpost .entry-header {
     display: table-cell;
     padding: 0 5px 125px;
     vertical-align: bottom; }
-  /* line 265, sass/partials/_pages.scss */
+  /* line 265, sass/partials/_home-page.scss */
   .homepage-news .featuredpost .entry-content {
     padding: 0 40px; }
-    /* line 268, sass/partials/_pages.scss */
+    /* line 268, sass/partials/_home-page.scss */
     .homepage-news .featuredpost .entry-content p {
       margin-bottom: 40px; }
-/* line 276, sass/partials/_pages.scss */
+/* line 276, sass/partials/_home-page.scss */
 .homepage-news .featured-content .entry-title {
   border-right: 8px solid #D40194;
   padding: 5px;
   background: rgba(212, 1, 148, 0.4);
   display: inline-block; }
-/* line 286, sass/partials/_pages.scss */
+/* line 286, sass/partials/_home-page.scss */
 .homepage-news article.entry header.entry-header::before {
   position: absolute;
   top: 0;
@@ -1386,80 +1389,80 @@ Pages
   transition: transform 0.6s, -webkit-transform 0.6s;
   -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
   transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0); }
-  /* line 299, sass/partials/_pages.scss */
+  /* line 299, sass/partials/_home-page.scss */
   .homepage-news article.entry header.entry-header::before:hover h2.entry-title {
     opacity: 1;
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s; }
-/* line 306, sass/partials/_pages.scss */
+/* line 306, sass/partials/_home-page.scss */
 .homepage-news article.entry:hover header.entry-header::before {
   -webkit-transform: scale3d(2, 2, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
   transform: scale3d(2, 2, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0); }
 
 /* --- Home Page Map --- */
-/* line 314, sass/partials/_pages.scss */
+/* line 314, sass/partials/_home-page.scss */
 .homepage-map {
   background: #fff; }
-  /* line 317, sass/partials/_pages.scss */
+  /* line 317, sass/partials/_home-page.scss */
   .homepage-map .widget-title {
     border-bottom: none;
     margin-bottom: 15px;
     text-align: center; }
-    /* line 322, sass/partials/_pages.scss */
+    /* line 322, sass/partials/_home-page.scss */
     .homepage-map .widget-title:before, .homepage-map .widget-title:after {
       content: " ";
       display: inline-block;
       border-top: 2px solid #D40194;
       padding-bottom: 12px;
       width: 15%; }
-  /* line 332, sass/partials/_pages.scss */
+  /* line 332, sass/partials/_home-page.scss */
   .homepage-map p {
     margin: 0;
     padding: 0; }
 
 /* --- Home Page Newsletter --- */
-/* line 339, sass/partials/_pages.scss */
+/* line 339, sass/partials/_home-page.scss */
 .homepage-newsletter {
   background: #D40194 url(images/indian-pattern.png) repeat;
   padding: 30px 0 70px; }
-  /* line 343, sass/partials/_pages.scss */
+  /* line 343, sass/partials/_home-page.scss */
   .homepage-newsletter .wrap {
     max-width: 768px; }
-  /* line 347, sass/partials/_pages.scss */
+  /* line 347, sass/partials/_home-page.scss */
   .homepage-newsletter p {
     color: #fff;
     font-size: 30px; }
-  /* line 354, sass/partials/_pages.scss */
+  /* line 354, sass/partials/_home-page.scss */
   .homepage-newsletter .enews-widget .widget-title {
     color: #fff;
     margin-bottom: 0; }
-  /* line 359, sass/partials/_pages.scss */
+  /* line 359, sass/partials/_home-page.scss */
   .homepage-newsletter .enews-widget input {
     float: left;
     font-size: 20px;
     width: 65%; }
-  /* line 365, sass/partials/_pages.scss */
+  /* line 365, sass/partials/_home-page.scss */
   .homepage-newsletter .enews-widget input[type="email"] {
     color: #848484;
     font-style: italic; }
-  /* line 370, sass/partials/_pages.scss */
+  /* line 370, sass/partials/_home-page.scss */
   .homepage-newsletter .enews-widget input[type="submit"] {
     border-radius: 0;
     float: left;
     width: 35%; }
 
 /* --- Home Page Social Icons --- */
-/* line 380, sass/partials/_pages.scss */
+/* line 380, sass/partials/_home-page.scss */
 .homepage-social-icons {
   padding: 30px 0;
   background-attachment: fixed;
   background-size: cover; }
-  /* line 388, sass/partials/_pages.scss */
+  /* line 388, sass/partials/_home-page.scss */
   .homepage-social-icons .widget-title {
     margin-bottom: 250px;
     text-shadow: 2px 2px 2px #969696; }
 
-/* line 394, sass/partials/_pages.scss */
+/* line 394, sass/partials/_home-page.scss */
 .parallax-page h1.entry-title {
   color: #fff;
   font-size: 2.7rem;
@@ -1472,6 +1475,7 @@ Pages
   top: 18rem;
   width: 70%; }
 
+<<<<<<< Updated upstream
 /* --- Common classes --- */
 /* line 408, sass/partials/_pages.scss */
 .title-deco {
@@ -1491,18 +1495,36 @@ Pages
   transform: rotate(-9deg); }
 /* line 431, sass/partials/_pages.scss */
 .widget-title
+=======
+/* Dance Crew
+--------------------------------------------- */
+/* line 5, sass/partials/_dance-crew.scss */
+.show-swiss .envira-gallery-item:nth-child(1) {
+  -webkit-transform: rotate(12deg);
+  transform: rotate(12deg); }
+/* line 11, sass/partials/_dance-crew.scss */
+.show-swiss .envira-gallery-item:nth-child(2) {
+  -webkit-transform: rotate(-9deg);
+  transform: rotate(-9deg); }
+/* line 17, sass/partials/_dance-crew.scss */
+>>>>>>> Stashed changes
 .show-swiss .envira-gallery-item:nth-child(3) {
   margin: auto;
   left: 0;
   right: 0; }
+<<<<<<< Updated upstream
 /* line 437, sass/partials/_pages.scss */
 .widget-title
+=======
+/* line 23, sass/partials/_dance-crew.scss */
+>>>>>>> Stashed changes
 .show-swiss .envira-gallery-item img {
   border: 5px solid #D40194;
   display: block;
   margin: 0 auto;
   max-width: 100%; }
 
+<<<<<<< Updated upstream
 /* line 447, sass/partials/_pages.scss */
 .dance-crew-widget .wrap {
   max-width: 1140px; }
@@ -1519,35 +1541,73 @@ Pages
 
 /* --- Catalog --- */
 /* line 466, sass/partials/_pages.scss */
+=======
+/* line 33, sass/partials/_dance-crew.scss */
+.dance-crew-widget .wrap {
+  max-width: 1140px; }
+
+/* line 38, sass/partials/_dance-crew.scss */
+.novices-to-artists {
+  background-image: url(images/Novices-to-artists.png);
+  background-repeat: no-repeat;
+  background-size: 650px 771px;
+  height: 790px;
+  margin-left: -220px;
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  width: 1024px; }
+
+/* Services
+--------------------------------------------- */
+/* line 4, sass/partials/_services.scss */
+>>>>>>> Stashed changes
 .catalog h2 {
   background: #D40194;
   color: #fff;
   font-size: 25px;
   height: 80px;
   padding: 10px 5px; }
+<<<<<<< Updated upstream
 /* line 474, sass/partials/_pages.scss */
+=======
+/* line 12, sass/partials/_services.scss */
+>>>>>>> Stashed changes
 .catalog .button {
   background: #D40194;
   border: 1px solid #D40194;
   border-radius: 50px;
   text-align: center;
   width: 100%; }
+<<<<<<< Updated upstream
   /* line 481, sass/partials/_pages.scss */
+=======
+  /* line 19, sass/partials/_services.scss */
+>>>>>>> Stashed changes
   .catalog .button:hover {
     background: #fff;
     color: #D40194; }
 
+<<<<<<< Updated upstream
 /* --- Dances --- */
 /* line 490, sass/partials/_pages.scss */
 .column ul {
   margin-left: 18px !important; }
 /* line 494, sass/partials/_pages.scss */
+=======
+/* Services
+--------------------------------------------- */
+/* line 4, sass/partials/_dances.scss */
+.column ul {
+  margin-left: 18px !important; }
+/* line 8, sass/partials/_dances.scss */
+>>>>>>> Stashed changes
 .column h4 {
   background: #D40194;
   border-left: 8px solid #890060;
   color: #fff;
   padding: 5px; }
 
+<<<<<<< Updated upstream
 /* line 502, sass/partials/_pages.scss */
 h3.accordion-header {
   padding: 0.3rem 1.5rem; }
@@ -1604,19 +1664,152 @@ h3.accordion-header.accordion-default-colors:hover {
 .prices th, .prices td {
   padding: 3px 8px; }
 /* line 568, sass/partials/_pages.scss */
+=======
+/*
+h3.accordion-header {
+	padding: 0.3rem 1.5rem;
+}
+
+h3.accordion-header.accordion-default-colors {
+// 	color: #fff;
+	
+	&:hover {
+		color: #fff;
+		text-decoration: underline;
+	}
+}
+*/
+/*
+.accordion-content {
+	
+	img {
+		border: 7px solid $color-purple;
+	}
+	
+	li {
+		margin-left: 0;
+	}
+}
+
+#accordion-container {
+	width: 100%;
+}
+
+#accordion-container .accordion-header,
+#accordion-container accordion-content {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#accordion-container .accordion-header {
+	border: 1px solid #ececec;
+	color: #fff;
+	cursor: pointer;
+	padding: 0.3rem 1.5rem;
+}
+
+#accordion-container .accordion-content {
+  	font-family: 'Lato', sans-serif;
+}
+
+.accordion-active + .accordion-content {
+  	border-left: 1px solid #ddd;
+  	border-right: 1px solid #ddd;
+  	border-bottom: 1px solid #ddd;
+}
+*/
+/* line 72, sass/partials/_dances.scss */
+.workout {
+  background-color: #54027D; }
+
+/* line 76, sass/partials/_dances.scss */
+.dance {
+  background-color: #5B04E2; }
+
+/* line 81, sass/partials/_dances.scss */
+.single-faq.expand-faq {
+  cursor: pointer; }
+  /* line 84, sass/partials/_dances.scss */
+  .single-faq.expand-faq h3 {
+    color: #fff;
+    margin: 0;
+    padding: 5px; }
+  /* line 90, sass/partials/_dances.scss */
+  .single-faq.expand-faq h3:before {
+    bottom: -7px;
+    color: #fff;
+    content: "\f132";
+    display: inline-block;
+    font: normal 30px/1 'dashicons';
+    position: relative; }
+  /* line 99, sass/partials/_dances.scss */
+  .single-faq.expand-faq #b-burn,
+  .single-faq.expand-faq #stretch-relax,
+  .single-faq.expand-faq #hatha-yoga,
+  .single-faq.expand-faq #kahvakuula {
+    background-color: #D40194; }
+  /* line 106, sass/partials/_dances.scss */
+  .single-faq.expand-faq #bollywood-elegance,
+  .single-faq.expand-faq #bollywood-stardom,
+  .single-faq.expand-faq #bellywood,
+  .single-faq.expand-faq #indian-contemporary,
+  .single-faq.expand-faq #b-star-7-11-vuotiaat,
+  .single-faq.expand-faq #b-lil-star-4-7-vuotiaat,
+  .single-faq.expand-faq #b-teens,
+  .single-faq.expand-faq #bollywood-for-students,
+  .single-faq.expand-faq #puistobollywood,
+  .single-faq.expand-faq #bollywood-basics,
+  .single-faq.expand-faq #just-dance {
+    background-color: #890060; }
+  /* line 120, sass/partials/_dances.scss */
+  .single-faq.expand-faq .faq-answer {
+    margin-top: 10px; }
+
+/* Prices
+--------------------------------------------- */
+/* line 5, sass/partials/_prices.scss */
+.prices thead {
+  background: #D40194;
+  color: #fff; }
+/* line 10, sass/partials/_prices.scss */
+.prices tbody {
+  background: #890060;
+  color: #fff; }
+/* line 15, sass/partials/_prices.scss */
+.prices th, .prices td {
+  padding: 3px 8px; }
+/* line 19, sass/partials/_prices.scss */
+>>>>>>> Stashed changes
 .prices th:nth-child(2),
 .prices th:nth-child(3),
 .prices td:nth-child(2),
 .prices td:nth-child(3) {
   text-align: right; }
+/* line 26, sass/partials/_prices.scss */
+.prices td {
+  border-top: none; }
 
 /* --- Teachers --- */
+<<<<<<< Updated upstream
 /* line 578, sass/partials/_pages.scss */
+=======
+/* line 2, sass/partials/_teachers.scss */
+>>>>>>> Stashed changes
 #danny,
 #kati,
 #ekaterina {
   border-bottom: 1px solid rgba(212, 1, 148, 0.3); }
 
+<<<<<<< Updated upstream
+=======
+/* --- Terms & Condition --- */
+/* line 9, sass/partials/_teachers.scss */
+.title-deco {
+  border-bottom: 2px solid #D40194;
+  padding-bottom: 5px; }
+
+>>>>>>> Stashed changes
 /*
 Plugins
 ---------------------------------------------------------------------------------------------------- */
@@ -2503,11 +2696,19 @@ Media Queries
     margin: 0 auto;
     max-width: 550px; }
 
+<<<<<<< Updated upstream
   /* line 276, sass/partials/_media-queries.scss */
   .dance-crew-widget .novices-to-artists {
     display: none; }
 
   /* line 283, sass/partials/_media-queries.scss */
+=======
+  /* line 275, sass/partials/_media-queries.scss */
+  .novices-to-artists {
+    display: none; }
+
+  /* line 281, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
   .catalog h2 {
     background: none;
     border-bottom: 2px solid #D40194;
@@ -2516,32 +2717,56 @@ Media Queries
 
   	/* Responsive Navigation
   --------------------------------------------- */
+<<<<<<< Updated upstream
   /* line 294, sass/partials/_media-queries.scss */
+=======
+  /* line 292, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
   .responsive-menu-icon,
   .responsive-menu .menu-item-has-children {
     cursor: pointer; }
 
+<<<<<<< Updated upstream
   /* line 299, sass/partials/_media-queries.scss */
+=======
+  /* line 297, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
   .responsive-menu .menu-item,
   .responsive-menu-icon {
     display: block; }
 
+<<<<<<< Updated upstream
   /* line 304, sass/partials/_media-queries.scss */
+=======
+  /* line 302, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
   .responsive-menu,
   .responsive-menu > .menu-item > .sub-menu {
     display: none; }
 
+<<<<<<< Updated upstream
   /* line 309, sass/partials/_media-queries.scss */
+=======
+  /* line 307, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
   .responsive-menu > .menu-item > .sub-menu {
     background: #890060;
     margin: auto;
     width: 100%; }
 
+<<<<<<< Updated upstream
   /* line 315, sass/partials/_media-queries.scss */
   .responsive-menu-icon {
     text-align: center; }
 
   /* line 319, sass/partials/_media-queries.scss */
+=======
+  /* line 313, sass/partials/_media-queries.scss */
+  .responsive-menu-icon {
+    text-align: center; }
+
+  /* line 317, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
   .responsive-menu-icon::before {
     color: #fff;
     content: "\f333";
@@ -2550,7 +2775,11 @@ Media Queries
     margin: 0 auto;
     padding: 4px; }
 
+<<<<<<< Updated upstream
   /* line 328, sass/partials/_media-queries.scss */
+=======
+  /* line 326, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
   .responsive-menu > .menu-item-has-children:before {
     clear: both;
     color: #fff;
@@ -2564,11 +2793,19 @@ Media Queries
     text-align: right;
     z-index: 9999; }
 
+<<<<<<< Updated upstream
   /* line 342, sass/partials/_media-queries.scss */
   .responsive-menu .menu-open.menu-item-has-children:before {
     content: "\f343"; }
 
   /* line 346, sass/partials/_media-queries.scss */
+=======
+  /* line 340, sass/partials/_media-queries.scss */
+  .responsive-menu .menu-open.menu-item-has-children:before {
+    content: "\f343"; }
+
+  /* line 344, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
   .nav-primary a:hover,
   .nav-primary .current-menu-item > a,
   .nav-primary .sub-menu a:hover,
@@ -2578,6 +2815,7 @@ Media Queries
   .nav-secondary .sub-menu .current-menu-item > a:hover {
     color: #fff; }
 
+<<<<<<< Updated upstream
   /* line 358, sass/partials/_media-queries.scss */
   .genesis-nav-menu .sub-menu {
     position: relative; }
@@ -2590,10 +2828,25 @@ Media Queries
     text-align: center; } }
 @media only screen and (max-width: 414px) {
   /* line 380, sass/partials/_media-queries.scss */
+=======
+  /* line 356, sass/partials/_media-queries.scss */
+  .genesis-nav-menu .sub-menu {
+    position: relative; }
+    /* line 359, sass/partials/_media-queries.scss */
+    .genesis-nav-menu .sub-menu a {
+      border: none;
+      width: auto; }
+  /* line 365, sass/partials/_media-queries.scss */
+  .genesis-nav-menu .menu-item {
+    text-align: center; } }
+@media only screen and (max-width: 414px) {
+  /* line 378, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
   .homepage-news .featuredpost .entry {
     margin-bottom: 10px;
     width: 100%; }
 
+<<<<<<< Updated upstream
   /* line 388, sass/partials/_media-queries.scss */
   .homepage-news .button {
     font-size: 1.5em; }
@@ -2603,6 +2856,17 @@ Media Queries
     font-size: 25px; }
 
   /* line 396, sass/partials/_media-queries.scss */
+=======
+  /* line 386, sass/partials/_media-queries.scss */
+  .homepage-news .button {
+    font-size: 1.5em; }
+
+  /* line 390, sass/partials/_media-queries.scss */
+  .homepage-map .widget-title {
+    font-size: 25px; }
+
+  /* line 394, sass/partials/_media-queries.scss */
+>>>>>>> Stashed changes
   .homepage-map .widget-title:before,
   .homepage-map .widget-title:after {
     padding-bottom: 8px; } }
