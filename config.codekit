@@ -675,6 +675,38 @@
 	],
 "lastSavedByUser": "Maurcio Alvarez Rojano",
 "manualImportLinks": {
+	"\/js\/project.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/partials\/responsive-menu.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/partials\/scrollto-init.js",
+			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/partials\/jquery.localScroll.min.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/partials\/jquery.scrollTo.min.js",
+			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/partials\/singular-scripts.js",
+			"position": 4,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
