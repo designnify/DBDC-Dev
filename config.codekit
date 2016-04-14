@@ -20,17 +20,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/images\/bg-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.82799e+06,
-		"inputAbbreviatedPath": "\/images\/bg-1.jpg",
-		"outputAbbreviatedPath": "\/images\/bg-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/DBDC-Logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -85,6 +74,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/images\/Novices-to-artists.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 359346,
+		"inputAbbreviatedPath": "\/images\/Novices-to-artists.png",
+		"outputAbbreviatedPath": "\/images\/Novices-to-artists.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/min\/accordion-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/accordion-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/accordion-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/js\/min\/backstretch-init-min.js": {
 		"fileType": 64,
@@ -174,9 +185,20 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/partials\/accordion.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/partials\/accordion.js",
+		"outputAbbreviatedPath": "\/js\/min\/accordion-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/partials\/backstretch-init.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/partials\/backstretch-init.js",
 		"outputAbbreviatedPath": "\/js\/partials\/min\/backstretch-init-min.js",
@@ -187,7 +209,7 @@
 		},
 	"\/js\/partials\/backstretch-set.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/partials\/backstretch-set.js",
 		"outputAbbreviatedPath": "\/js\/partials\/min\/backstretch-set-min.js",
@@ -198,7 +220,7 @@
 		},
 	"\/js\/partials\/backstretch.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/partials\/backstretch.js",
 		"outputAbbreviatedPath": "\/js\/partials\/min\/backstretch-min.js",
@@ -209,7 +231,7 @@
 		},
 	"\/js\/partials\/jquery.localScroll.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/partials\/jquery.localScroll.min.js",
 		"outputAbbreviatedPath": "\/js\/partials\/min\/jquery.localScroll.min-min.js",
@@ -220,7 +242,7 @@
 		},
 	"\/js\/partials\/jquery.scrollTo.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/partials\/jquery.scrollTo.min.js",
 		"outputAbbreviatedPath": "\/js\/partials\/min\/jquery.scrollTo.min-min.js",
@@ -231,7 +253,7 @@
 		},
 	"\/js\/partials\/responsive-menu.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/partials\/responsive-menu.js",
 		"outputAbbreviatedPath": "\/js\/partials\/min\/responsive-menu-min.js",
@@ -242,7 +264,7 @@
 		},
 	"\/js\/partials\/scrollto-init.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/partials\/scrollto-init.js",
 		"outputAbbreviatedPath": "\/js\/partials\/min\/scrollto-init-min.js",
@@ -253,7 +275,7 @@
 		},
 	"\/js\/partials\/singular-scripts.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/partials\/singular-scripts.js",
 		"outputAbbreviatedPath": "\/js\/partials\/min\/singular-scripts-min.js",
@@ -264,7 +286,7 @@
 		},
 	"\/js\/project-min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/project-min.js",
 		"outputAbbreviatedPath": "\/js\/min\/project-min-min.js",
@@ -278,9 +300,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/project.js",
-		"outputAbbreviatedPath": "\/js\/min\/project-min.js",
+		"outputAbbreviatedPath": "\/js\/project-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
@@ -675,6 +697,62 @@
 	],
 "lastSavedByUser": "Maurcio Alvarez Rojano",
 "manualImportLinks": {
+	"\/js\/project.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/partials\/accordion.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/partials\/backstretch-init.js",
+			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/partials\/backstretch-set.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/partials\/backstretch.js",
+			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/partials\/jquery.localScroll.min.js",
+			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/partials\/jquery.scrollTo.min.js",
+			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/partials\/responsive-menu.js",
+			"position": 6,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/partials\/scrollto-init.js",
+			"position": 7,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/partials\/singular-scripts.js",
+			"position": 8,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
