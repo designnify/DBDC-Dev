@@ -15,7 +15,7 @@ add_action( 'wp_enqueue_scripts', 'dbdc_scripts' );
 function dbdc_scripts() {
 
 	//* Add Google Fonts
-	wp_register_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,400,700 | Oswald:400,700,300 | Raleway:400,500', array(), CHILD_THEME_VERSION );
+	wp_register_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:400,700,300 | Raleway:400,500', array(), CHILD_THEME_VERSION );
 	wp_enqueue_style( 'google-fonts' );
 	
 	//* Add compiled JS
