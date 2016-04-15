@@ -1304,60 +1304,6 @@ Pages
   color: #fff;
   padding: 5px; }
 
-/*
-h3.accordion-header {
-	padding: 0.3rem 1.5rem;
-}
-
-h3.accordion-header.accordion-default-colors {
-// 	color: #fff;
-	
-	&:hover {
-		color: #fff;
-		text-decoration: underline;
-	}
-}
-*/
-/*
-.accordion-content {
-	
-	img {
-		border: 7px solid $color-purple;
-	}
-	
-	li {
-		margin-left: 0;
-	}
-}
-
-#accordion-container {
-	width: 100%;
-}
-
-#accordion-container .accordion-header,
-#accordion-container accordion-content {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-#accordion-container .accordion-header {
-	border: 1px solid #ececec;
-	color: #fff;
-	cursor: pointer;
-	padding: 0.3rem 1.5rem;
-}
-
-#accordion-container .accordion-content {
-  	font-family: 'Lato', sans-serif;
-}
-
-.accordion-active + .accordion-content {
-  	border-left: 1px solid #ddd;
-  	border-right: 1px solid #ddd;
-  	border-bottom: 1px solid #ddd;
-}
-*/
 .workout {
   background-color: #7F03BD; }
 
@@ -1381,7 +1327,8 @@ h3.accordion-header.accordion-default-colors {
   .single-faq.expand-faq #stretch-relax,
   .single-faq.expand-faq #hatha-yoga,
   .single-faq.expand-faq #kahvakuula {
-    background-color: #D40194; }
+    background-color: #D40194;
+    width: 50%; }
   .single-faq.expand-faq #bollywood-elegance,
   .single-faq.expand-faq #bollywood-stardom,
   .single-faq.expand-faq #bellywood,
@@ -1393,7 +1340,8 @@ h3.accordion-header.accordion-default-colors {
   .single-faq.expand-faq #puistobollywood,
   .single-faq.expand-faq #bollywood-basics,
   .single-faq.expand-faq #just-dance {
-    background-color: #890060; }
+    background-color: #890060;
+    width: 50%; }
   .single-faq.expand-faq .faq-answer {
     margin-top: 10px; }
 
