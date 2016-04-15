@@ -1,0 +1,68 @@
+/* Services
+--------------------------------------------- */
+.column {
+	ul {
+		margin-left: 18px !important;
+	}
+	
+	h4 {
+		background: $color-purple;
+		border-left: 8px solid $color-purple-dark;
+		color: #fff;
+		padding: 5px;
+	}
+}
+
+.workout {
+	background-color: $color-workout;
+}
+
+.dance {
+	background-color: $color-dance;
+}
+
+
+.single-faq.expand-faq {
+	cursor: pointer;
+	
+	h3 {
+		color: #fff;
+		margin: 0;
+		padding: 5px;
+	}
+	
+	h3:before {
+		bottom: -7px;
+		color: #fff;
+		content: "\f132";
+		display: inline-block;
+		font: normal 30px/1 'dashicons';
+		position: relative;
+	}
+	
+	#b-burn,
+	#stretch-relax,
+	#hatha-yoga,
+	#kahvakuula {
+		background-color: $color-purple;
+	}
+	
+	#bollywood-elegance,
+	#bollywood-stardom,
+	#bellywood,
+	#indian-contemporary,
+	#b-star-7-11-vuotiaat,
+	#b-lil-star-4-7-vuotiaat,
+	#b-teens,
+	#bollywood-for-students,
+	#puistobollywood,
+	#bollywood-basics,
+	#just-dance {
+		background-color: $color-purple-dark;
+	}
+	
+	.faq-answer {
+		margin-top: 10px;
+	}
+}
+

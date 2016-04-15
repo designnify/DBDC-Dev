@@ -2,7 +2,7 @@
 
 	.site-inner,
 	.wrap {
-		max-width: 960px;
+		max-width: none;
 	}
 
 	.content-sidebar-sidebar .content-sidebar-wrap,
@@ -43,15 +43,20 @@
 	.footer-widgets .widget-title {
 		font-size: 25px;
 	}
+	
+	.footer-widgets .wrap,
+	.homepage-news .wrap,
+	.dance-crew-widget .wrap {
+		max-width: 960px;
+	}
+	
+	.entry {
+		padding: 50px 60px;
+	}
 
 }
 
 @media only screen and (max-width: 1023px) {
-
-	.site-inner,
-	.wrap {
-		max-width: 768px;
-	}
 
 	.content,
 	.content-sidebar-sidebar .content,
@@ -160,9 +165,11 @@
 	.dbdc-home .site-inner {
 		padding: 0;
 	}
-
-	.site-inner,
-	.wrap {
+	
+	.content .entry,
+	.footer-widgets .wrap,
+	.homepage-news .wrap,
+	.dance-crew-widget .wrap {
 		padding-left: 5%;
 		padding-right: 5%;
 	}
@@ -260,7 +267,13 @@
 	}
 	
 	.homepage-newsletter .wrap {
-		margin: 0;
+		margin: 0 auto;
+		max-width: 550px;
+	}
+	
+	//* Dance Crew page
+	.novices-to-artists {
+		display: none;
 	}
 	
 	//* Catalog page
