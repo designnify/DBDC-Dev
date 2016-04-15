@@ -23,10 +23,10 @@
 
 
 .single-faq.expand-faq {
-	cursor: pointer;
 	
 	h3 {
 		color: #fff;
+		cursor: pointer;
 		margin: 0;
 		padding: 5px;
 	}
@@ -64,7 +64,8 @@
 	}
 	
 	.faq-answer {
-		margin-top: 10px;
+		border: 1px solid $color-purple;
+		padding-top: 10px;
 	}
 }
 
