@@ -44,6 +44,7 @@
 		- Dances
 		- Prices
 		- Teachers
+		- Contact
 	- Plugins
 		- Genesis eNews Extended
 		- Genesis Latest Tweets
@@ -1892,6 +1893,12 @@ Pages
 .title-deco {
   border-bottom: 2px solid #D40194;
   padding-bottom: 5px;
+}
+
+/* line 2, sass/partials/_contact.scss */
+.wpcf7-form p {
+  font-weight: 700;
+  margin: 0 0 10px;
 }
 
 /*
