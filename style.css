@@ -1,15 +1,15 @@
 @charset "UTF-8";
 /*
-	Theme Name: Genesis Sample
-	Description: This is the sample theme created for the Genesis Framework.
-	Author: StudioPress
-	Author URI: http://www.studiopress.com/
-	Version: 2.0.1
+	Theme Name: DBDC Theme
+	Description: This is the DBDC theme created for the Genesis Framework.
+	Author: Mauricio Alvarez - Designnify
+	Author URI: http://designnify.com/
+	Version: 1.0
 
 	Tags: black, orange, white, one-column, two-columns, three-columns, fixed-width, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
 
 	Template: genesis
-	Template Version: 2.0.1
+	Template Version: 1.0
 
 	License: GPL-2.0+
 	License URI: http://www.opensource.org/licenses/gpl-license.php
@@ -591,11 +591,6 @@ input:hover[type="submit"],
 .button:hover {
   background-color: #fff;
   color: #D40194;
-}
-
-/* line 228, sass/partials/_defaults.scss */
-.entry-content .button:hover {
-  color: #fff;
 }
 
 /* line 233, sass/partials/_defaults.scss */
@@ -1783,7 +1778,7 @@ Pages
   color: #D40194;
 }
 
-/* Services
+/* Dances
 --------------------------------------------- */
 /* line 4, sass/partials/_dances.scss */
 .column ul {
@@ -1849,7 +1844,31 @@ Pages
 /* line 66, sass/partials/_dances.scss */
 .single-faq.expand-faq .faq-answer {
   border: 1px solid #D40194;
-  padding-top: 10px;
+  padding-top: 0px;
+}
+/* line 70, sass/partials/_dances.scss */
+.single-faq.expand-faq .faq-answer .panel-grid:first-of-type {
+  margin-bottom: 0 !important;
+}
+/* line 74, sass/partials/_dances.scss */
+.single-faq.expand-faq .faq-answer p {
+  margin: 0;
+}
+/* line 78, sass/partials/_dances.scss */
+.single-faq.expand-faq .faq-answer ul {
+  margin-bottom: 0;
+}
+/* line 83, sass/partials/_dances.scss */
+.single-faq.expand-faq h3.widget-title {
+  color: #000;
+}
+/* line 87, sass/partials/_dances.scss */
+.single-faq.expand-faq .simcal-default-calendar-list {
+  padding: 0;
+}
+/* line 91, sass/partials/_dances.scss */
+.single-faq.expand-faq .simcal-default-calendar-list .simcal-event-details p {
+  margin: 0;
 }
 
 /* Prices
