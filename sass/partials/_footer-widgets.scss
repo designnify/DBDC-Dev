@@ -41,7 +41,7 @@
 	.widget-title {
 		border-bottom: 1px solid #fff;
 		font-family: $font-sans-3;
-		font-size: 28px;
+		font-size: 25px;
 	}
 	
 	.textwidget {
@@ -51,19 +51,7 @@
 	}
 }
 
-.footer-widgets-1, 
-.footer-widgets-2, 
-.footer-widgets-3, 
-.footer-widgets-4 {
-	width: 21.875%; /* 252px / 1152px */
-}
-
-.footer-widgets-1, 
-.footer-widgets-2, 
-.footer-widgets-3 {
+.footer-widgets-1 {
 	float: left;
-	margin-right: 4.166666666%; /* 48px / 1152px */
-}
-.footer-widgets-4 {
-	float: right;
+	width: 100%;
 }

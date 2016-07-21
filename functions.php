@@ -135,8 +135,8 @@ function custom_attributes_content( $attributes ) {
 
 }
 
-//* Add support for 4-column footer widgets
-add_theme_support( 'genesis-footer-widgets', 4 );
+//* Add support for 1-column footer widgets
+add_theme_support( 'genesis-footer-widgets', 1 );
 
 //* Customize the credits
 add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_text' );

@@ -2623,7 +2623,7 @@ Footer Widgets
 .footer-widgets .widget-title {
   border-bottom: 1px solid #fff;
   font-family: Raleway, sans-serif;
-  font-size: 28px;
+  font-size: 25px;
 }
 /* line 47, sass/partials/_footer-widgets.scss */
 .footer-widgets .textwidget {
@@ -2633,26 +2633,9 @@ Footer Widgets
 }
 
 /* line 54, sass/partials/_footer-widgets.scss */
-.footer-widgets-1,
-.footer-widgets-2,
-.footer-widgets-3,
-.footer-widgets-4 {
-  width: 21.875%;
-  /* 252px / 1152px */
-}
-
-/* line 61, sass/partials/_footer-widgets.scss */
-.footer-widgets-1,
-.footer-widgets-2,
-.footer-widgets-3 {
+.footer-widgets-1 {
   float: left;
-  margin-right: 4.166666666%;
-  /* 48px / 1152px */
-}
-
-/* line 67, sass/partials/_footer-widgets.scss */
-.footer-widgets-4 {
-  float: right;
+  width: 100%;
 }
 
 /*
@@ -2707,46 +2690,46 @@ Media Queries
     width: 400px;
   }
 
-  /* line 25, sass/partials/_media-queries.scss */
-  .footer-widgets-1,
-  .footer-widgets-2,
-  .footer-widgets-3,
-  .footer-widgets-4 {
-    width: 230px;
-  }
-
-  /* line 32, sass/partials/_media-queries.scss */
+  /*
+  	.footer-widgets-1,
+  	.footer-widgets-2,
+  	.footer-widgets-3,
+  	.footer-widgets-4 {
+  		width: 230px;
+  	}
+  */
+  /* line 34, sass/partials/_media-queries.scss */
   .sidebar-primary,
   .title-area {
     width: 300px;
   }
 
-  /* line 37, sass/partials/_media-queries.scss */
+  /* line 39, sass/partials/_media-queries.scss */
   .footer-widgets-1,
   .footer-widgets-2,
   .footer-widgets-3 {
     margin-right: 13px;
   }
 
-  /* line 43, sass/partials/_media-queries.scss */
+  /* line 45, sass/partials/_media-queries.scss */
   .footer-widgets .widget-title {
     font-size: 25px;
   }
 
-  /* line 47, sass/partials/_media-queries.scss */
+  /* line 49, sass/partials/_media-queries.scss */
   .footer-widgets .wrap,
   .homepage-news .wrap,
   .dance-crew-widget .wrap {
     max-width: 960px;
   }
 
-  /* line 53, sass/partials/_media-queries.scss */
+  /* line 55, sass/partials/_media-queries.scss */
   .entry {
     padding: 50px 60px;
   }
 }
 @media only screen and (max-width: 1023px) {
-  /* line 61, sass/partials/_media-queries.scss */
+  /* line 63, sass/partials/_media-queries.scss */
   .content,
   .content-sidebar-sidebar .content,
   .content-sidebar-sidebar .content-sidebar-wrap,
@@ -2765,31 +2748,31 @@ Media Queries
     width: 100%;
   }
 
-  /* line 79, sass/partials/_media-queries.scss */
+  /* line 81, sass/partials/_media-queries.scss */
   .footer-widgets-1,
   .footer-widgets-2,
   .footer-widgets-3 {
     margin-bottom: 10px;
   }
 
-  /* line 85, sass/partials/_media-queries.scss */
+  /* line 87, sass/partials/_media-queries.scss */
   .site-header .wrap {
     padding: 20px 5%;
   }
 
-  /* line 89, sass/partials/_media-queries.scss */
+  /* line 91, sass/partials/_media-queries.scss */
   .header-image .title-area {
     background-position: center top;
   }
 
-  /* line 93, sass/partials/_media-queries.scss */
+  /* line 95, sass/partials/_media-queries.scss */
   .genesis-nav-menu li,
   .site-header ul.genesis-nav-menu,
   .site-header .search-form {
     float: none;
   }
 
-  /* line 99, sass/partials/_media-queries.scss */
+  /* line 101, sass/partials/_media-queries.scss */
   .genesis-nav-menu,
   .site-description,
   .site-header .title-area,
@@ -2798,66 +2781,66 @@ Media Queries
     text-align: center;
   }
 
-  /* line 107, sass/partials/_media-queries.scss */
+  /* line 109, sass/partials/_media-queries.scss */
   .genesis-nav-menu a,
   .genesis-nav-menu > .first > a,
   .genesis-nav-menu > .last > a {
     padding: 20px 10px;
   }
 
-  /* line 113, sass/partials/_media-queries.scss */
+  /* line 115, sass/partials/_media-queries.scss */
   .genesis-nav-menu a {
     font-size: 14px;
   }
 
-  /* line 117, sass/partials/_media-queries.scss */
+  /* line 119, sass/partials/_media-queries.scss */
   .site-header .search-form {
     margin: 16px auto;
   }
 
-  /* line 121, sass/partials/_media-queries.scss */
+  /* line 123, sass/partials/_media-queries.scss */
   .genesis-nav-menu li.right {
     display: none;
   }
 
-  /* line 125, sass/partials/_media-queries.scss */
+  /* line 127, sass/partials/_media-queries.scss */
   .navigation-container {
     margin-top: -300px;
   }
 
-  /* line 129, sass/partials/_media-queries.scss */
+  /* line 131, sass/partials/_media-queries.scss */
   .footer-widgets-1 {
     margin-right: 0;
   }
 }
 @media only screen and (max-width: 780px) {
-  /* line 141, sass/partials/_media-queries.scss */
+  /* line 143, sass/partials/_media-queries.scss */
   .homepage-news .featuredpost .entry {
     min-height: 500px;
   }
-  /* line 145, sass/partials/_media-queries.scss */
+  /* line 147, sass/partials/_media-queries.scss */
   .homepage-news .featuredpost img.entry-image {
     height: 100%;
     width: 100%;
   }
-  /* line 150, sass/partials/_media-queries.scss */
+  /* line 152, sass/partials/_media-queries.scss */
   .homepage-news .featuredpost .entry-header {
     padding: 0 5px 40px;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 159, sass/partials/_media-queries.scss */
+  /* line 161, sass/partials/_media-queries.scss */
   body {
     background-color: #fff;
     font-size: 16px;
   }
 
-  /* line 165, sass/partials/_media-queries.scss */
+  /* line 167, sass/partials/_media-queries.scss */
   .dbdc-home .site-inner {
     padding: 0;
   }
 
-  /* line 169, sass/partials/_media-queries.scss */
+  /* line 171, sass/partials/_media-queries.scss */
   .content .entry,
   .footer-widgets .wrap,
   .homepage-news .wrap,
@@ -2866,7 +2849,7 @@ Media Queries
     padding-right: 5%;
   }
 
-  /* line 177, sass/partials/_media-queries.scss */
+  /* line 179, sass/partials/_media-queries.scss */
   .archive-description,
   .author-box,
   .comment-respond,
@@ -2877,7 +2860,7 @@ Media Queries
     padding: 0;
   }
 
-  /* line 187, sass/partials/_media-queries.scss */
+  /* line 189, sass/partials/_media-queries.scss */
   .archive-description,
   .author-box,
   .comment-respond,
@@ -2888,12 +2871,12 @@ Media Queries
     box-shadow: none;
   }
 
-  /* line 197, sass/partials/_media-queries.scss */
+  /* line 199, sass/partials/_media-queries.scss */
   .archive-pagination li a {
     margin-bottom: 4px;
   }
 
-  /* line 201, sass/partials/_media-queries.scss */
+  /* line 203, sass/partials/_media-queries.scss */
   .five-sixths,
   .four-sixths,
   .one-fourth,
@@ -2909,74 +2892,74 @@ Media Queries
     width: 100%;
   }
 
-  /* line 216, sass/partials/_media-queries.scss */
+  /* line 218, sass/partials/_media-queries.scss */
   .sidebar .widget.enews-widget {
     padding: 40px;
   }
 
-  /* line 220, sass/partials/_media-queries.scss */
+  /* line 222, sass/partials/_media-queries.scss */
   .site-header {
     background: #D40194;
     min-height: 50px;
   }
-  /* line 224, sass/partials/_media-queries.scss */
+  /* line 226, sass/partials/_media-queries.scss */
   .site-header .wrap {
     padding: 0 5%;
   }
-  /* line 228, sass/partials/_media-queries.scss */
+  /* line 230, sass/partials/_media-queries.scss */
   .site-header .title-area {
     float: none;
     height: 45px;
     padding: 0;
   }
 
-  /* line 235, sass/partials/_media-queries.scss */
+  /* line 237, sass/partials/_media-queries.scss */
   .header-image .site-title > a {
     background: url(images/DBDC-Logo-Mobile.svg) no-repeat left !important;
     min-height: 45px;
   }
 
-  /* line 240, sass/partials/_media-queries.scss */
+  /* line 242, sass/partials/_media-queries.scss */
   .navigation-container {
     margin-top: 0;
   }
 
-  /* line 244, sass/partials/_media-queries.scss */
+  /* line 246, sass/partials/_media-queries.scss */
   .nav-primary {
     background: #D40194;
     width: 100%;
   }
-  /* line 246, sass/partials/_media-queries.scss */
+  /* line 248, sass/partials/_media-queries.scss */
   .nav-primary .wrap {
     padding: 0;
   }
-  /* line 252, sass/partials/_media-queries.scss */
+  /* line 254, sass/partials/_media-queries.scss */
   .nav-primary li {
     border: none;
   }
 
-  /* line 259, sass/partials/_media-queries.scss */
+  /* line 261, sass/partials/_media-queries.scss */
   .hero-video {
     height: 60vh;
   }
 
-  /* line 264, sass/partials/_media-queries.scss */
+  /* line 266, sass/partials/_media-queries.scss */
   .homepage-news .widget-title {
     text-align: center;
   }
 
-  /* line 269, sass/partials/_media-queries.scss */
+  /* line 271, sass/partials/_media-queries.scss */
   .homepage-newsletter .wrap {
     margin: 0 auto;
     max-width: 550px;
   }
 
-  /* line 275, sass/partials/_media-queries.scss */
+  /* line 277, sass/partials/_media-queries.scss */
   .novices-to-artists {
     display: none;
   }
 
-  /* line 281, sass/partials/_media-queries.scss */
+  /* line 283, sass/partials/_media-queries.scss */
   .catalog h2 {
     background: none;
     border-bottom: 2px solid #D40194;
@@ -2986,37 +2969,37 @@ Media Queries
 
   	/* Responsive Navigation
   --------------------------------------------- */
-  /* line 292, sass/partials/_media-queries.scss */
+  /* line 294, sass/partials/_media-queries.scss */
   .responsive-menu-icon,
   .responsive-menu .menu-item-has-children {
     cursor: pointer;
   }
 
-  /* line 297, sass/partials/_media-queries.scss */
+  /* line 299, sass/partials/_media-queries.scss */
   .responsive-menu .menu-item,
   .responsive-menu-icon {
     display: block;
   }
 
-  /* line 302, sass/partials/_media-queries.scss */
+  /* line 304, sass/partials/_media-queries.scss */
   .responsive-menu,
   .responsive-menu > .menu-item > .sub-menu {
     display: none;
   }
 
-  /* line 307, sass/partials/_media-queries.scss */
+  /* line 309, sass/partials/_media-queries.scss */
   .responsive-menu > .menu-item > .sub-menu {
     background: #890060;
     margin: auto;
     width: 100%;
   }
 
-  /* line 313, sass/partials/_media-queries.scss */
+  /* line 315, sass/partials/_media-queries.scss */
   .responsive-menu-icon {
     text-align: center;
   }
 
-  /* line 317, sass/partials/_media-queries.scss */
+  /* line 319, sass/partials/_media-queries.scss */
   .responsive-menu-icon::before {
     color: #fff;
     content: "\f333";
@@ -3026,7 +3009,7 @@ Media Queries
     padding: 4px;
   }
 
-  /* line 326, sass/partials/_media-queries.scss */
+  /* line 328, sass/partials/_media-queries.scss */
   .responsive-menu > .menu-item-has-children:before {
     clear: both;
     color: #fff;
@@ -3041,12 +3024,12 @@ Media Queries
     z-index: 9999;
   }
 
-  /* line 340, sass/partials/_media-queries.scss */
+  /* line 342, sass/partials/_media-queries.scss */
   .responsive-menu .menu-open.menu-item-has-children:before {
     content: "\f343";
   }
 
-  /* line 344, sass/partials/_media-queries.scss */
+  /* line 346, sass/partials/_media-queries.scss */
   .nav-primary a:hover,
   .nav-primary .current-menu-item > a,
   .nav-primary .sub-menu a:hover,
@@ -3057,38 +3040,38 @@ Media Queries
     color: #fff;
   }
 
-  /* line 356, sass/partials/_media-queries.scss */
+  /* line 358, sass/partials/_media-queries.scss */
   .genesis-nav-menu .sub-menu {
     position: relative;
   }
-  /* line 359, sass/partials/_media-queries.scss */
+  /* line 361, sass/partials/_media-queries.scss */
   .genesis-nav-menu .sub-menu a {
     border: none;
     width: auto;
   }
-  /* line 365, sass/partials/_media-queries.scss */
+  /* line 367, sass/partials/_media-queries.scss */
   .genesis-nav-menu .menu-item {
     text-align: center;
   }
 }
 @media only screen and (max-width: 414px) {
-  /* line 378, sass/partials/_media-queries.scss */
+  /* line 380, sass/partials/_media-queries.scss */
   .homepage-news .featuredpost .entry {
     margin-bottom: 10px;
     width: 100%;
   }
 
-  /* line 386, sass/partials/_media-queries.scss */
+  /* line 388, sass/partials/_media-queries.scss */
   .homepage-news .button {
     font-size: 1.5em;
   }
 
-  /* line 390, sass/partials/_media-queries.scss */
+  /* line 392, sass/partials/_media-queries.scss */
   .homepage-map .widget-title {
     font-size: 25px;
   }
 
-  /* line 394, sass/partials/_media-queries.scss */
+  /* line 396, sass/partials/_media-queries.scss */
   .homepage-map .widget-title:before,
   .homepage-map .widget-title:after {
     padding-bottom: 8px;
